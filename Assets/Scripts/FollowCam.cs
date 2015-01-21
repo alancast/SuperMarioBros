@@ -4,6 +4,7 @@ using System.Collections;
 public class FollowCam : MonoBehaviour {
 	public static FollowCam instance;
 	public int maxY;
+	public int minX;
 	public bool _________;
 	public GameObject poi;
 	public float camZ;
@@ -31,11 +32,16 @@ public class FollowCam : MonoBehaviour {
 			// Get the position of the poi
 			destination = poi.transform.position;
 		}
-		// Limit the Y to maximum value
-		destination.y = Mathf.Min( maxY, destination.y );
-		// Retain a destination.z of camZ 
+//		// Limit the Y to maximum value
+//		destination.y = Mathf.Min( maxY, destination.y );
+//		// Retain a destination.z of camZ 
+//		destination.z = camZ;
+//		// Set the camera to the destination 
+//		transform.position = destination;
+		//limit x position at beginning of level
+		destination.x = Mathf.Max( minX, destination.x );
+		destination.y = transform.position.y;
 		destination.z = camZ;
-		// Set the camera to the destination 
 		transform.position = destination;
 	}
 }
