@@ -20,7 +20,7 @@ public class hitBlockCollision : MonoBehaviour {
 		PE_Dir dir = other.gameObject.GetComponent<PE_Obj> ().dir;
 		//print ("goo");
 
-		if (dir == PE_Dir.down || dir == PE_Dir.downLeft ||  dir == PE_Dir.downRight) {
+		if (dir == PE_Dir.up || dir == PE_Dir.upLeft ||  dir == PE_Dir.upRight) {
 				wasHit = true;
 				anim.SetBool ("wasHit", wasHit);
 		}
