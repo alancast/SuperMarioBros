@@ -72,8 +72,12 @@ public class PE_Obj : MonoBehaviour {
 		if (dir == PE_Dir.down) {
 			// Just resolve to be on top
 			a1 = pos1;
-			a1.y -= transform.lossyScale.y/2f;
 			b = that.pos1;
+			if(a1.y < b.y){
+				transform.position = pos1 = posFinal;
+				return;
+			}
+			a1.y -= transform.lossyScale.y/2f;
 			b.y += that.transform.lossyScale.y/2f;
 			if (b.y > a1.y) {
 				posFinal.y += Mathf.Abs( a1.y - b.y );
@@ -92,9 +96,9 @@ public class PE_Obj : MonoBehaviour {
 			a1.y += transform.lossyScale.y/2f;
 			b = that.pos1;
 			b.y -= that.transform.lossyScale.y/2f;
-			if (b.y < a1.y) {
-				posFinal.y -= Mathf.Abs( a1.y - b.y );
-			}
+//			if (b.y < a1.y) {
+//				posFinal.y -= Mathf.Abs( a1.y - b.y );
+//			}
 			// Handle vel
 			vel.y = 0;
 			
