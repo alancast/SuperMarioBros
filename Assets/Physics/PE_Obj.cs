@@ -146,7 +146,7 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x += that.transform.lossyScale.x/2f;
 			b.y += that.transform.localScale.y/2f;
-			if(a1.y < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
+			if((a1.y + .1) < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
 			}
@@ -160,7 +160,7 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x -= that.transform.lossyScale.x/2f;
 			b.y += that.transform.localScale.y/2f;
-			if(a1.y < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
+			if((a1.y + .1) < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
 			}
