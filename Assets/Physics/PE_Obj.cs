@@ -94,6 +94,10 @@ public class PE_Obj : MonoBehaviour {
 			// Just resolve to be below
 			a1 = pos1;
 			a1.y += transform.lossyScale.y/2f;
+			if(that.tag == "Platform"){
+				transform.position = pos1 = posFinal;
+				return;
+			}
 			b = that.pos1;
 			b.y -= that.transform.lossyScale.y/2f;
 //			if (b.y < a1.y) {
@@ -110,6 +114,10 @@ public class PE_Obj : MonoBehaviour {
 			a1 = pos1;
 			a1.x += transform.lossyScale.x/2f;
 			a1.y += transform.lossyScale.y/2f;
+			if(that.tag == "Platform"){
+				transform.position = pos1 = posFinal;
+				return;
+			}
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x -= that.transform.lossyScale.x/2f;
@@ -120,6 +128,10 @@ public class PE_Obj : MonoBehaviour {
 			a1 = pos1;
 			a1.x -= transform.lossyScale.x/2f;
 			a1.y += transform.lossyScale.y/2f;
+			if(that.tag == "Platform"){
+				transform.position = pos1 = posFinal;
+				return;
+			}
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x += that.transform.lossyScale.x/2f;
@@ -134,6 +146,10 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x += that.transform.lossyScale.x/2f;
 			b.y += that.transform.localScale.y/2f;
+			if(a1.y < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
+				transform.position = pos1 = posFinal;
+				return;
+			}
 		}
 		
 		if (dir == PE_Dir.downRight) { // Top, Left is the comparison corner
@@ -144,6 +160,10 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x -= that.transform.lossyScale.x/2f;
 			b.y += that.transform.localScale.y/2f;
+			if(a1.y < (b.y - that.transform.localScale.y) && that.tag == "Platform"){
+				transform.position = pos1 = posFinal;
+				return;
+			}
 		}
 		
 		// In the x dimension, find how far along the line segment between a0 and a1 we need to go to encounter b
