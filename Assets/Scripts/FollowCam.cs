@@ -3,8 +3,9 @@ using System.Collections;
 
 public class FollowCam : MonoBehaviour {
 	public static FollowCam instance;
-	public int maxY;
-	public int minX;
+	public float maxY;
+	public float minX;
+	private float minY;
 	public bool _________;
 	public GameObject poi;
 	public float camZ;
@@ -12,6 +13,7 @@ public class FollowCam : MonoBehaviour {
 	void Awake () {
 		instance = this;
 		camZ = this.transform.position.z;
+		minY = 0f;
 	}
 	
 	// Use this for initialization
@@ -40,7 +42,8 @@ public class FollowCam : MonoBehaviour {
 //		transform.position = destination;
 		//limit x position at beginning of level
 		destination.x = Mathf.Max( minX, destination.x );
-		destination.y = transform.position.y;
+		//check for if he is off the screen later
+		destination.y = minY;
 		destination.z = camZ;
 		transform.position = destination;
 	}
