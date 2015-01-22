@@ -1,0 +1,2401 @@
+fileFormatVersion: 2
+guid: d0a84e54b81c7411b9924fc95e93e62a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mapPieces_spriteSheet_0
+    21300002: mapPieces_spriteSheet_1
+    21300004: mapPieces_spriteSheet_2
+    21300006: mapPieces_spriteSheet_3
+    21300008: mapPieces_spriteSheet_4
+    21300010: mapPieces_spriteSheet_5
+    21300012: mapPieces_spriteSheet_6
+    21300014: mapPieces_spriteSheet_7
+    21300016: mapPieces_spriteSheet_8
+    21300018: mapPieces_spriteSheet_9
+    21300020: mapPieces_spriteSheet_10
+    21300022: mapPieces_spriteSheet_11
+    21300024: mapPieces_spriteSheet_12
+    21300026: mapPieces_spriteSheet_13
+    21300028: mapPieces_spriteSheet_14
+    21300030: mapPieces_spriteSheet_15
+    21300032: mapPieces_spriteSheet_16
+    21300034: mapPieces_spriteSheet_17
+    21300036: mapPieces_spriteSheet_18
+    21300038: mapPieces_spriteSheet_19
+    21300040: mapPieces_spriteSheet_20
+    21300042: mapPieces_spriteSheet_21
+    21300044: mapPieces_spriteSheet_22
+    21300046: mapPieces_spriteSheet_23
+    21300048: mapPieces_spriteSheet_24
+    21300050: mapPieces_spriteSheet_25
+    21300052: mapPieces_spriteSheet_26
+    21300054: mapPieces_spriteSheet_27
+    21300056: mapPieces_spriteSheet_28
+    21300058: mapPieces_spriteSheet_29
+    21300060: mapPieces_spriteSheet_30
+    21300062: mapPieces_spriteSheet_31
+    21300064: mapPieces_spriteSheet_32
+    21300066: mapPieces_spriteSheet_33
+    21300068: mapPieces_spriteSheet_34
+    21300070: mapPieces_spriteSheet_35
+    21300072: mapPieces_spriteSheet_36
+    21300074: mapPieces_spriteSheet_37
+    21300076: mapPieces_spriteSheet_38
+    21300078: mapPieces_spriteSheet_39
+    21300080: mapPieces_spriteSheet_40
+    21300082: mapPieces_spriteSheet_41
+    21300084: mapPieces_spriteSheet_42
+    21300086: mapPieces_spriteSheet_43
+    21300088: mapPieces_spriteSheet_44
+    21300090: mapPieces_spriteSheet_45
+    21300092: mapPieces_spriteSheet_46
+    21300094: mapPieces_spriteSheet_47
+    21300096: mapPieces_spriteSheet_48
+    21300098: mapPieces_spriteSheet_49
+    21300100: mapPieces_spriteSheet_50
+    21300102: mapPieces_spriteSheet_51
+    21300104: mapPieces_spriteSheet_52
+    21300106: mapPieces_spriteSheet_53
+    21300108: mapPieces_spriteSheet_54
+    21300110: mapPieces_spriteSheet_55
+    21300112: mapPieces_spriteSheet_56
+    21300114: mapPieces_spriteSheet_57
+    21300116: mapPieces_spriteSheet_58
+    21300118: mapPieces_spriteSheet_59
+    21300120: mapPieces_spriteSheet_60
+    21300122: mapPieces_spriteSheet_61
+    21300124: mapPieces_spriteSheet_62
+    21300126: mapPieces_spriteSheet_63
+    21300128: mapPieces_spriteSheet_64
+    21300130: mapPieces_spriteSheet_65
+    21300132: mapPieces_spriteSheet_66
+    21300134: mapPieces_spriteSheet_67
+    21300136: mapPieces_spriteSheet_68
+    21300138: mapPieces_spriteSheet_69
+    21300140: mapPieces_spriteSheet_70
+    21300142: mapPieces_spriteSheet_71
+    21300144: mapPieces_spriteSheet_72
+    21300146: mapPieces_spriteSheet_73
+    21300148: mapPieces_spriteSheet_74
+    21300150: mapPieces_spriteSheet_75
+    21300152: mapPieces_spriteSheet_76
+    21300154: mapPieces_spriteSheet_77
+    21300156: mapPieces_spriteSheet_78
+    21300158: mapPieces_spriteSheet_79
+    21300160: mapPieces_spriteSheet_80
+    21300162: mapPieces_spriteSheet_81
+    21300164: mapPieces_spriteSheet_82
+    21300166: mapPieces_spriteSheet_83
+    21300168: mapPieces_spriteSheet_84
+    21300170: mapPieces_spriteSheet_85
+    21300172: mapPieces_spriteSheet_86
+    21300174: mapPieces_spriteSheet_87
+    21300176: mapPieces_spriteSheet_88
+    21300178: mapPieces_spriteSheet_89
+    21300180: mapPieces_spriteSheet_90
+    21300182: mapPieces_spriteSheet_91
+    21300184: mapPieces_spriteSheet_92
+    21300186: mapPieces_spriteSheet_93
+    21300188: mapPieces_spriteSheet_94
+    21300190: mapPieces_spriteSheet_95
+    21300192: mapPieces_spriteSheet_96
+    21300194: mapPieces_spriteSheet_97
+    21300196: mapPieces_spriteSheet_98
+    21300198: mapPieces_spriteSheet_99
+    21300200: mapPieces_spriteSheet_100
+    21300202: mapPieces_spriteSheet_101
+    21300204: mapPieces_spriteSheet_102
+    21300206: mapPieces_spriteSheet_103
+    21300208: mapPieces_spriteSheet_104
+    21300210: mapPieces_spriteSheet_105
+    21300212: mapPieces_spriteSheet_106
+    21300214: mapPieces_spriteSheet_107
+    21300216: mapPieces_spriteSheet_108
+    21300218: mapPieces_spriteSheet_109
+    21300220: mapPieces_spriteSheet_110
+    21300222: mapPieces_spriteSheet_111
+    21300224: mapPieces_spriteSheet_112
+    21300226: mapPieces_spriteSheet_113
+    21300228: mapPieces_spriteSheet_114
+    21300230: mapPieces_spriteSheet_115
+    21300232: mapPieces_spriteSheet_116
+    21300234: mapPieces_spriteSheet_117
+    21300236: mapPieces_spriteSheet_118
+    21300238: mapPieces_spriteSheet_119
+    21300240: mapPieces_spriteSheet_120
+    21300242: mapPieces_spriteSheet_121
+    21300244: mapPieces_spriteSheet_122
+    21300246: mapPieces_spriteSheet_123
+    21300248: mapPieces_spriteSheet_124
+    21300250: mapPieces_spriteSheet_125
+    21300252: mapPieces_spriteSheet_126
+    21300254: mapPieces_spriteSheet_127
+    21300256: mapPieces_spriteSheet_128
+    21300258: mapPieces_spriteSheet_129
+    21300260: mapPieces_spriteSheet_130
+    21300262: mapPieces_spriteSheet_131
+    21300264: mapPieces_spriteSheet_132
+    21300266: mapPieces_spriteSheet_133
+    21300268: mapPieces_spriteSheet_134
+    21300270: mapPieces_spriteSheet_135
+    21300272: mapPieces_spriteSheet_136
+    21300274: mapPieces_spriteSheet_137
+    21300276: mapPieces_spriteSheet_138
+    21300278: mapPieces_spriteSheet_139
+    21300280: mapPieces_spriteSheet_140
+    21300282: mapPieces_spriteSheet_141
+    21300284: mapPieces_spriteSheet_142
+    21300286: mapPieces_spriteSheet_143
+    21300288: mapPieces_spriteSheet_144
+    21300290: mapPieces_spriteSheet_145
+    21300292: mapPieces_spriteSheet_146
+    21300294: mapPieces_spriteSheet_147
+    21300296: mapPieces_spriteSheet_148
+    21300298: mapPieces_spriteSheet_149
+    21300300: mapPieces_spriteSheet_150
+    21300302: mapPieces_spriteSheet_151
+    21300304: mapPieces_spriteSheet_152
+    21300306: mapPieces_spriteSheet_153
+    21300308: mapPieces_spriteSheet_154
+    21300310: mapPieces_spriteSheet_155
+    21300312: mapPieces_spriteSheet_156
+    21300314: mapPieces_spriteSheet_157
+    21300316: mapPieces_spriteSheet_158
+    21300318: mapPieces_spriteSheet_159
+    21300320: mapPieces_spriteSheet_160
+    21300322: mapPieces_spriteSheet_161
+    21300324: mapPieces_spriteSheet_162
+    21300326: mapPieces_spriteSheet_163
+    21300328: mapPieces_spriteSheet_164
+    21300330: mapPieces_spriteSheet_165
+    21300332: mapPieces_spriteSheet_166
+    21300334: mapPieces_spriteSheet_167
+    21300336: mapPieces_spriteSheet_168
+    21300338: mapPieces_spriteSheet_169
+    21300340: mapPieces_spriteSheet_170
+    21300342: mapPieces_spriteSheet_171
+    21300344: mapPieces_spriteSheet_172
+    21300346: mapPieces_spriteSheet_173
+    21300348: mapPieces_spriteSheet_174
+    21300350: mapPieces_spriteSheet_175
+    21300352: mapPieces_spriteSheet_176
+    21300354: mapPieces_spriteSheet_177
+    21300356: mapPieces_spriteSheet_178
+    21300358: mapPieces_spriteSheet_179
+    21300360: mapPieces_spriteSheet_180
+    21300362: mapPieces_spriteSheet_181
+    21300364: mapPieces_spriteSheet_182
+    21300366: mapPieces_spriteSheet_183
+    21300368: mapPieces_spriteSheet_184
+    21300370: mapPieces_spriteSheet_185
+    21300372: mapPieces_spriteSheet_186
+    21300374: mapPieces_spriteSheet_187
+    21300376: mapPieces_spriteSheet_188
+    21300378: mapPieces_spriteSheet_189
+    21300380: mapPieces_spriteSheet_190
+    21300382: mapPieces_spriteSheet_191
+    21300384: mapPieces_spriteSheet_192
+    21300386: mapPieces_spriteSheet_193
+    21300388: mapPieces_spriteSheet_194
+    21300390: mapPieces_spriteSheet_195
+    21300392: mapPieces_spriteSheet_196
+    21300394: mapPieces_spriteSheet_197
+    21300396: mapPieces_spriteSheet_198
+    21300398: mapPieces_spriteSheet_199
+    21300400: mapPieces_spriteSheet_200
+    21300402: mapPieces_spriteSheet_201
+    21300404: mapPieces_spriteSheet_202
+    21300406: mapPieces_spriteSheet_203
+    21300408: mapPieces_spriteSheet_204
+    21300410: mapPieces_spriteSheet_205
+    21300412: mapPieces_spriteSheet_206
+    21300414: mapPieces_spriteSheet_207
+    21300416: mapPieces_spriteSheet_208
+    21300418: mapPieces_spriteSheet_209
+    21300420: mapPieces_spriteSheet_210
+    21300422: mapPieces_spriteSheet_211
+    21300424: mapPieces_spriteSheet_212
+    21300426: mapPieces_spriteSheet_213
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mapPieces_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 807
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 805
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 806
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 807
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 807
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 807
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 807
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 807
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 807
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 681
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 682
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 754
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 746
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 787
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 680
+        width: 216
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 635
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 680
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 652
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 657
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 656
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 657
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 580
+        width: 184
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 618
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 613
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 657
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 590
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 584
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 613
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 613
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 528
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 528
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 476
+        width: 143
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 522
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 500
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 444
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 498
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 503
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 478
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 478
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 500
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 499
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 499
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 476
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 476
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 476
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 390
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 452
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 425
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 425
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 440
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 390
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 390
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 390
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 357
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 357
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 385
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 367
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 361
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 361
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 361
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 360
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 360
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 359
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 352
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 357
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 357
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 357
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 357
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 357
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 356
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 369
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 366
+        width: 164
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 368
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 275
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 329
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 341
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 341
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 341
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 275
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 305
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 302
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 250
+        width: 103
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 275
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 287
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 206
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 227
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 250
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 251
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 251
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 251
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 251
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 251
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 206
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 222
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 221
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 221
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 217
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 217
+        width: 73
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 217
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 206
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 198
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 196
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 196
+        width: 73
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 196
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 137
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 110
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 166
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 182
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 182
+        width: 69
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 182
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 110
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 165
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 165
+        width: 69
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 165
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 137
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 110
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 110
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 110
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 112
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 115
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 98
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 97
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 100
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 93
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 106
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 104
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 104
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 104
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 104
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 104
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 81
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 85
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 81
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 81
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 85
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 81
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 54
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 66
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 47
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 47
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 66
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 24
+        width: 152
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 38
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 52
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 52
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 47
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 38
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 29
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 33
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 32
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 32
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 24
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 28
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 28
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 28
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 28
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 28
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 9
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 9
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 9
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mapPieces_spriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 9
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
