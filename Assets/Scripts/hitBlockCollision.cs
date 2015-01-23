@@ -24,6 +24,7 @@ public class hitBlockCollision : MonoBehaviour {
 				wasHit = true;
 				anim.SetBool ("wasHit", wasHit);
 		}
+
 	}
 
 }
