@@ -13,7 +13,8 @@ public enum PE_Dir{
 }
 
 public class PhysicsEngine : MonoBehaviour {
-	static public List<PE_Obj> objs;
+	static public List<PE_Obj> 	objs;
+	static public float			closeEnough = 0.1f;
 	
 	public Vector3 		gravity = new Vector3(0, -9.8f, 0);
 
@@ -27,10 +28,7 @@ public class PhysicsEngine : MonoBehaviour {
 		foreach (PE_Obj po in objs) {
 			TimeStep(po, dt);
 		}
-		
-		// Resolve collisions ???????????????????????????????????????????????????????????????????
-		
-		
+
 		// Finalize positions
 		foreach (PE_Obj po in objs) {
 			po.transform.position = po.pos1;
@@ -74,5 +72,27 @@ public class PhysicsEngine : MonoBehaviour {
 		po.pos1 = po.pos0 = po.transform.position;
 		po.pos1 += po.vel * dt;
 		
+	}
+	
+	// Static equality functions to deal with floating point math errors
+	static public bool EQ(float f0, float f1) {
+		if ( Mathf.Abs(f1-f0) <= closeEnough ) {
+			return( true );
+		}
+		return( false );
+	}
+	
+	static public bool LEQ(float f0, float f1) {
+		if ( f0 < f1 || Mathf.Abs(f1-f0) <= closeEnough ) {
+			return( true );
+		}
+		return( false );
+	}
+	
+	static public bool GEQ(float f0, float f1) {
+		if ( f0 > f1 || Mathf.Abs(f1-f0) <= closeEnough ) {
+			return( true );
+		}
+		return( false );
 	}
 }

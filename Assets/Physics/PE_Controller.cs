@@ -34,13 +34,6 @@ public class PE_Controller : MonoBehaviour {
 		float vX = Input.GetAxis("Horizontal"); 
 		vel.x = vX * hSpeed;
 		
-//		if (vX == 0) { // No Horizontal input from keyboard
-//		}
-//		Vector3 accMult = Vector3.one;
-//		if (!grounded) accMult.x = airSteeringAmt;
-//
-//		vel.x += vX * accMult.x * acceleration * Time.deltaTime;
-		
 		// Jumping with A (which is x or .)
 		if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
 			// Jump if you're grounded
