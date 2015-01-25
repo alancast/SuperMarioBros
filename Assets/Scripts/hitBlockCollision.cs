@@ -18,6 +18,24 @@ public class hitBlockCollision : MonoBehaviour {
 		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
 		else return false;
 	}
+	
+	bool rightTop(Collider other){
+		Vector3 origin = other.transform.position;
+		origin.x += other.transform.collider.bounds.size.x;
+		if (Physics.Raycast(origin, 
+		                    new Vector3(0, 1, 0), 
+		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
+		else return false;
+	}
+	
+	bool leftTop(Collider other){
+		Vector3 origin = other.transform.position;
+		origin.x -= other.transform.collider.bounds.size.x;
+		if (Physics.Raycast(origin, 
+		                    new Vector3(0, 1, 0), 
+		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
+		else return false;
+	}
 
 	void OnTriggerEnter(Collider other) {
 		PE_Dir dir = other.gameObject.GetComponent<PE_Obj> ().dir;
@@ -27,7 +45,7 @@ public class hitBlockCollision : MonoBehaviour {
 //				wasHit = true;
 //				anim.SetBool ("wasHit", wasHit);
 //		}
-		if(onTop(other)){
+		if(onTop(other) || rightTop(other) || leftTop(other)){
 			wasHit = true;
 			anim.SetBool ("wasHit", wasHit);
 		}
