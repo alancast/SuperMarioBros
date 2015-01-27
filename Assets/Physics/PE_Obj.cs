@@ -69,6 +69,7 @@ public class PE_Obj : MonoBehaviour {
 		
 		PE_Obj otherPEO = other.GetComponent<PE_Obj>();
 		if (otherPEO == null) return;
+		if (other.tag == "Coin") return;
 		
 		ResolveCollisionWith(otherPEO);
 	}
@@ -124,9 +125,9 @@ public class PE_Obj : MonoBehaviour {
 			// Just resolve to be on top
 			a1 = pos1;
 			b = that.pos1;
-			a1.y -= transform.lossyScale.y/2f;
+			a1.y -= collider.bounds.size.y/2f;
 			a0 = a1 - delta;
-			b.y += that.transform.lossyScale.y/2f;
+			b.y += that.collider.bounds.size.y/2f;
 			if (PhysicsEngine.GEQ( a0.y, b.y ) && b.y > a1.y) {
 				posFinal.y += Mathf.Abs( a1.y - b.y );
 				// Handle vel
@@ -139,14 +140,14 @@ public class PE_Obj : MonoBehaviour {
 		if (dir == PE_Dir.up) {
 			// Just resolve to be below
 			a1 = pos1;
-			a1.y += transform.lossyScale.y/2f;
+			a1.y += collider.bounds.size.y/2f;
 			if(that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
 			}
 			a0 = a1 - delta;
 			b = that.pos1;
-			b.y -= that.transform.lossyScale.y/2f;
+			b.y -= that.collider.bounds.size.y/2f;
 			if ( PhysicsEngine.LEQ( a0.y, b.y ) && b.y < a1.y) {
 				posFinal.y -= Mathf.Abs( a1.y - b.y );
 				// Handle vel
@@ -156,40 +157,40 @@ public class PE_Obj : MonoBehaviour {
 		
 		if (dir == PE_Dir.upRight) { // Bottom, Left is the comparison corner
 			a1 = pos1;
-			a1.x += transform.lossyScale.x/2f;
-			a1.y += transform.lossyScale.y/2f;
+			a1.x += collider.bounds.size.x/2f;
+			a1.y += collider.bounds.size.y/2f;
 			if(that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
 			}
 			a0 = a1 - delta;
 			b = that.pos1;
-			b.x -= that.transform.lossyScale.x/2f;
-			b.y -= that.transform.lossyScale.y/2f;
+			b.x -= that.collider.bounds.size.x/2f;
+			b.y -= that.collider.bounds.size.y/2f;
 		}
 		
 		if (dir == PE_Dir.upLeft) { // Bottom, Right is the comparison corner
 			a1 = pos1;
-			a1.x -= transform.lossyScale.x/2f;
-			a1.y += transform.lossyScale.y/2f;
+			a1.x -= collider.bounds.size.x/2f;
+			a1.y += collider.bounds.size.y/2f;
 			if(that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
 			}
 			a0 = a1 - delta;
 			b = that.pos1;
-			b.x += that.transform.lossyScale.x/2f;
-			b.y -= that.transform.lossyScale.y/2f;
+			b.x += that.collider.bounds.size.x/2f;
+			b.y -= that.collider.bounds.size.y/2f;
 		}
 		
 		if (dir == PE_Dir.downLeft) { // Top, Right is the comparison corner
 			a1 = pos1;
-			a1.x -= transform.lossyScale.x/2f;
-			a1.y -= transform.lossyScale.y/2f;
+			a1.x -= collider.bounds.size.x/2f;
+			a1.y -= collider.bounds.size.y/2f;
 			a0 = a1 - delta;
 			b = that.pos1;
-			b.x += that.transform.lossyScale.x/2f;
-			b.y += that.transform.lossyScale.y/2f;
+			b.x += that.collider.bounds.size.x/2f;
+			b.y += that.collider.bounds.size.y/2f;
 			if(!onTop() && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
@@ -198,12 +199,12 @@ public class PE_Obj : MonoBehaviour {
 		
 		if (dir == PE_Dir.downRight) { // Top, Left is the comparison corner
 			a1 = pos1;
-			a1.x += transform.lossyScale.x/2f;
-			a1.y -= transform.lossyScale.y/2f;
+			a1.x += collider.bounds.size.x/2f;
+			a1.y -= collider.bounds.size.y/2f;
 			a0 = a1 - delta;
 			b = that.pos1;
-			b.x -= that.transform.lossyScale.x/2f;
-			b.y += that.transform.lossyScale.y/2f;
+			b.x -= that.collider.bounds.size.x/2f;
+			b.y += that.collider.bounds.size.y/2f;
 			if(!onTop() && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;

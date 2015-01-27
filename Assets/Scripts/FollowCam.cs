@@ -42,8 +42,20 @@ public class FollowCam : MonoBehaviour {
 //		transform.position = destination;
 		//limit x position at beginning of level
 		destination.x = Mathf.Max( minX, destination.x );
-		//check for if he is off the screen later
-		destination.y = minY;
+		if (destination.y > transform.position.y + 5
+			&& PE_Controller.instance.isFlying){
+			destination.y = destination.y - 5;
+			if (destination.y > maxY) destination.y = maxY;
+			minY = destination.y;	
+		}
+		else if(destination.y < transform.position.y - 5){
+			destination.y = destination.y + 5;
+			if (destination.y < 0) destination.y = 0;
+			minY = destination.y;
+		}
+		else{
+			destination.y = minY;
+		}
 		destination.z = camZ;
 		transform.position = destination;
 	}
