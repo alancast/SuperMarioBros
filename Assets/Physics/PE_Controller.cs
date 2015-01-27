@@ -39,6 +39,9 @@ public class PE_Controller : MonoBehaviour {
 	// Different x & y to limit maximum falling velocity
 	public Vector2	maxSpeed = new Vector2( 8, 15 ); 
 	public float 	maxSprintX = 16;
+	public float 	flightThreshold = 15;
+	public float 	flightVelocity = 15;
+	private float 	endFlight;
 	
 	void Awake(){
 		instance = this;
@@ -62,7 +65,13 @@ public class PE_Controller : MonoBehaviour {
 			acceleration= 0;
 			
 		handleSprinting();
-		handleJumping();
+		if (!isFlying){
+			//also handles flying start
+			handleJumping();
+		}
+		else{
+			handleFlying();
+		}
 		change_velocity();
 		
 	}
@@ -101,6 +110,10 @@ public class PE_Controller : MonoBehaviour {
 		
 		// Jumping with A (which is x or .)
 		if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
+			if (state == MarioState.Fly && Mathf.Abs(vel.x) > flightThreshold && grounded){
+				handleFlying();
+				return;
+			}
 			// Jump if you're grounded
 			if (grounded || isJumping) {
 				vel.y = jumpVel;
@@ -141,6 +154,47 @@ public class PE_Controller : MonoBehaviour {
 				slowingDown = false;
 			}
 		}
+	}
+	
+	void handleFlying(){
+		vel = peo.vel;
+		//first call from handleJumping
+		if (!isFlying){
+			isFlying = true;
+			//set time limit
+			endFlight = Time.time + 5;
+			print (endFlight);
+			vel.y = jumpVel;
+			// Jumping will set ground = null
+			peo.ground = null; 
+			isJumping = true;
+			stopHeight = peo.transform.position.y + maxJumpHeight;
+		}
+		else{
+			//hasn't yet hit max height from initial jump
+			if (isJumping){
+				if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.Period)){
+					if (peo.transform.position.y > stopHeight){
+						isJumping = false;
+					}
+					else{
+						vel.y = jumpVel;
+					}
+				}
+				else{
+					isJumping = false;
+				}
+			}
+			else{
+				if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
+					vel.y = flightVelocity;
+				}
+			}
+		}
+		if(Time.time > endFlight){
+			isFlying = false;
+		}
+		peo.vel = vel;
 	}
 	
 }
