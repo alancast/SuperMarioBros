@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum MarioState{
+	Small,
+	Big,
+	Fly
+}
+
 public class PE_Controller : MonoBehaviour {
 	public static PE_Controller instance;
 	private PE_Obj peo;
+	public MarioState	state = MarioState.Small;
 	
 	public Vector3	vel;
 	public bool		grounded = false;
@@ -13,13 +20,13 @@ public class PE_Controller : MonoBehaviour {
 	public bool 	isSprinting = false;
 	//slowing down to normal run speed
 	public bool 	slowingDown = false;
+	public bool		isFlying = false;
 	
-	public float	hSpeed = 10;
 	public float	acceleration = 10;
 	public float 	accel_speed = 10;
 	public float	jumpVel = 10;
-	public float	airSteeringAmt = 1f;
 	public float 	maxJumpHeight = 3;
+	//will get set each jump to the max height to stop at
 	public float 	stopHeight = 0;
 	
 	//0 for never stopping, 1 for stopping faster
