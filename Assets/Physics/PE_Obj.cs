@@ -69,6 +69,7 @@ public class PE_Obj : MonoBehaviour {
 		
 		PE_Obj otherPEO = other.GetComponent<PE_Obj>();
 		if (otherPEO == null) return;
+		if (other.tag == "Coin") return;
 		
 		ResolveCollisionWith(otherPEO);
 	}
