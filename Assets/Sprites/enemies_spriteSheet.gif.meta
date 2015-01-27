@@ -1,0 +1,2258 @@
+fileFormatVersion: 2
+guid: 6af28258c7a0e4a919e9e70ae530e332
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemies_spriteSheet_0
+    21300002: enemies_spriteSheet_1
+    21300004: enemies_spriteSheet_2
+    21300006: enemies_spriteSheet_3
+    21300008: enemies_spriteSheet_4
+    21300010: enemies_spriteSheet_5
+    21300012: enemies_spriteSheet_6
+    21300014: enemies_spriteSheet_7
+    21300016: enemies_spriteSheet_8
+    21300018: enemies_spriteSheet_9
+    21300020: enemies_spriteSheet_10
+    21300022: enemies_spriteSheet_11
+    21300024: enemies_spriteSheet_12
+    21300026: enemies_spriteSheet_13
+    21300028: enemies_spriteSheet_14
+    21300030: enemies_spriteSheet_15
+    21300032: enemies_spriteSheet_16
+    21300034: enemies_spriteSheet_17
+    21300036: enemies_spriteSheet_18
+    21300038: enemies_spriteSheet_19
+    21300040: enemies_spriteSheet_20
+    21300042: enemies_spriteSheet_21
+    21300044: enemies_spriteSheet_22
+    21300046: enemies_spriteSheet_23
+    21300048: enemies_spriteSheet_24
+    21300050: enemies_spriteSheet_25
+    21300052: enemies_spriteSheet_26
+    21300054: enemies_spriteSheet_27
+    21300056: enemies_spriteSheet_28
+    21300058: enemies_spriteSheet_29
+    21300060: enemies_spriteSheet_30
+    21300062: enemies_spriteSheet_31
+    21300064: enemies_spriteSheet_32
+    21300066: enemies_spriteSheet_33
+    21300068: enemies_spriteSheet_34
+    21300070: enemies_spriteSheet_35
+    21300072: enemies_spriteSheet_36
+    21300074: enemies_spriteSheet_37
+    21300076: enemies_spriteSheet_38
+    21300078: enemies_spriteSheet_39
+    21300080: enemies_spriteSheet_40
+    21300082: enemies_spriteSheet_41
+    21300084: enemies_spriteSheet_42
+    21300086: enemies_spriteSheet_43
+    21300088: enemies_spriteSheet_44
+    21300090: enemies_spriteSheet_45
+    21300092: enemies_spriteSheet_46
+    21300094: enemies_spriteSheet_47
+    21300096: enemies_spriteSheet_48
+    21300098: enemies_spriteSheet_49
+    21300100: enemies_spriteSheet_50
+    21300102: enemies_spriteSheet_51
+    21300104: enemies_spriteSheet_52
+    21300106: enemies_spriteSheet_53
+    21300108: enemies_spriteSheet_54
+    21300110: enemies_spriteSheet_55
+    21300112: enemies_spriteSheet_56
+    21300114: enemies_spriteSheet_57
+    21300116: enemies_spriteSheet_58
+    21300118: enemies_spriteSheet_59
+    21300120: enemies_spriteSheet_60
+    21300122: enemies_spriteSheet_61
+    21300124: enemies_spriteSheet_62
+    21300126: enemies_spriteSheet_63
+    21300128: enemies_spriteSheet_64
+    21300130: enemies_spriteSheet_65
+    21300132: enemies_spriteSheet_66
+    21300134: enemies_spriteSheet_67
+    21300136: enemies_spriteSheet_68
+    21300138: enemies_spriteSheet_69
+    21300140: enemies_spriteSheet_70
+    21300142: enemies_spriteSheet_71
+    21300144: enemies_spriteSheet_72
+    21300146: enemies_spriteSheet_73
+    21300148: enemies_spriteSheet_74
+    21300150: enemies_spriteSheet_75
+    21300152: enemies_spriteSheet_76
+    21300154: enemies_spriteSheet_77
+    21300156: enemies_spriteSheet_78
+    21300158: enemies_spriteSheet_79
+    21300160: enemies_spriteSheet_80
+    21300162: enemies_spriteSheet_81
+    21300164: enemies_spriteSheet_82
+    21300166: enemies_spriteSheet_83
+    21300168: enemies_spriteSheet_84
+    21300170: enemies_spriteSheet_85
+    21300172: enemies_spriteSheet_86
+    21300174: enemies_spriteSheet_87
+    21300176: enemies_spriteSheet_88
+    21300178: enemies_spriteSheet_89
+    21300180: enemies_spriteSheet_90
+    21300182: enemies_spriteSheet_91
+    21300184: enemies_spriteSheet_92
+    21300186: enemies_spriteSheet_93
+    21300188: enemies_spriteSheet_94
+    21300190: enemies_spriteSheet_95
+    21300192: enemies_spriteSheet_96
+    21300194: enemies_spriteSheet_97
+    21300196: enemies_spriteSheet_98
+    21300198: enemies_spriteSheet_99
+    21300200: enemies_spriteSheet_100
+    21300202: enemies_spriteSheet_101
+    21300204: enemies_spriteSheet_102
+    21300206: enemies_spriteSheet_103
+    21300208: enemies_spriteSheet_104
+    21300210: enemies_spriteSheet_105
+    21300212: enemies_spriteSheet_106
+    21300214: enemies_spriteSheet_107
+    21300216: enemies_spriteSheet_108
+    21300218: enemies_spriteSheet_109
+    21300220: enemies_spriteSheet_110
+    21300222: enemies_spriteSheet_111
+    21300224: enemies_spriteSheet_112
+    21300226: enemies_spriteSheet_113
+    21300228: enemies_spriteSheet_114
+    21300230: enemies_spriteSheet_115
+    21300232: enemies_spriteSheet_116
+    21300234: enemies_spriteSheet_117
+    21300236: enemies_spriteSheet_118
+    21300238: enemies_spriteSheet_119
+    21300240: enemies_spriteSheet_120
+    21300242: enemies_spriteSheet_121
+    21300244: enemies_spriteSheet_122
+    21300246: enemies_spriteSheet_123
+    21300248: enemies_spriteSheet_124
+    21300250: enemies_spriteSheet_125
+    21300252: enemies_spriteSheet_126
+    21300254: enemies_spriteSheet_127
+    21300256: enemies_spriteSheet_128
+    21300258: enemies_spriteSheet_129
+    21300260: enemies_spriteSheet_130
+    21300262: enemies_spriteSheet_131
+    21300264: enemies_spriteSheet_132
+    21300266: enemies_spriteSheet_133
+    21300268: enemies_spriteSheet_134
+    21300270: enemies_spriteSheet_135
+    21300272: enemies_spriteSheet_136
+    21300274: enemies_spriteSheet_137
+    21300276: enemies_spriteSheet_138
+    21300278: enemies_spriteSheet_139
+    21300280: enemies_spriteSheet_140
+    21300282: enemies_spriteSheet_141
+    21300284: enemies_spriteSheet_142
+    21300286: enemies_spriteSheet_143
+    21300288: enemies_spriteSheet_144
+    21300290: enemies_spriteSheet_145
+    21300292: enemies_spriteSheet_146
+    21300294: enemies_spriteSheet_147
+    21300296: enemies_spriteSheet_148
+    21300298: enemies_spriteSheet_149
+    21300300: enemies_spriteSheet_150
+    21300302: enemies_spriteSheet_151
+    21300304: enemies_spriteSheet_152
+    21300306: enemies_spriteSheet_153
+    21300308: enemies_spriteSheet_154
+    21300310: enemies_spriteSheet_155
+    21300312: enemies_spriteSheet_156
+    21300314: enemies_spriteSheet_157
+    21300316: enemies_spriteSheet_158
+    21300318: enemies_spriteSheet_159
+    21300320: enemies_spriteSheet_160
+    21300322: enemies_spriteSheet_161
+    21300324: enemies_spriteSheet_162
+    21300326: enemies_spriteSheet_163
+    21300328: enemies_spriteSheet_164
+    21300330: enemies_spriteSheet_165
+    21300332: enemies_spriteSheet_166
+    21300334: enemies_spriteSheet_167
+    21300336: enemies_spriteSheet_168
+    21300338: enemies_spriteSheet_169
+    21300340: enemies_spriteSheet_170
+    21300342: enemies_spriteSheet_171
+    21300344: enemies_spriteSheet_172
+    21300346: enemies_spriteSheet_173
+    21300348: enemies_spriteSheet_174
+    21300350: enemies_spriteSheet_175
+    21300352: enemies_spriteSheet_176
+    21300354: enemies_spriteSheet_177
+    21300356: enemies_spriteSheet_178
+    21300358: enemies_spriteSheet_179
+    21300360: enemies_spriteSheet_180
+    21300362: enemies_spriteSheet_181
+    21300364: enemies_spriteSheet_182
+    21300366: enemies_spriteSheet_183
+    21300368: enemies_spriteSheet_184
+    21300370: enemies_spriteSheet_185
+    21300372: enemies_spriteSheet_186
+    21300374: enemies_spriteSheet_187
+    21300376: enemies_spriteSheet_188
+    21300378: enemies_spriteSheet_189
+    21300380: enemies_spriteSheet_190
+    21300382: enemies_spriteSheet_191
+    21300384: enemies_spriteSheet_192
+    21300386: enemies_spriteSheet_193
+    21300388: enemies_spriteSheet_194
+    21300390: enemies_spriteSheet_195
+    21300392: enemies_spriteSheet_196
+    21300394: enemies_spriteSheet_197
+    21300396: enemies_spriteSheet_198
+    21300398: enemies_spriteSheet_199
+    21300400: enemies_spriteSheet_200
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemies_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 870
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 870
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 870
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 870
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 870
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 870
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 870
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 870
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 870
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 870
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 870
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 870
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 870
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 870
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 869
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 869
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 869
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 842
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 842
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 842
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 842
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 842
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 842
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 782
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 782
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 837
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 782
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 782
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 781
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 782
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 782
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 782
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 781
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 781
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 781
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 781
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 744
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 744
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 745
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 744
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 744
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 744
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 744
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 744
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 744
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 744
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 744
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 698
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 698
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 698
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 698
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 698
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 698
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 698
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 698
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 698
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 698
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 675
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 676
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 675
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 677
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 676
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 676
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 678
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 678
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 678
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 678
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 679
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 647
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 652
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 649
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 615
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 615
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 615
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 616
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 578
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 593
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 596
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 595
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 578
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 578
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 517
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 517
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 557
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 557
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 557
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 557
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 517
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 517
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 517
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 536
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 517
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 517
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 519
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 518
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 517
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 458
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 402
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 436
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 436
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 443
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 442
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 405
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 402
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 425
+        width: 86
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 425
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 425
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 413
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 413
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 411
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 373
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 378
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 373
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 367
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 364
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 367
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 364
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 348
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 348
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 323
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 323
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 323
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 323
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 309
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 310
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 286
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 286
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 246
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 245
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 274
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 246
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 274
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 215
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 208
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 208
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 208
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 208
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 174
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 174
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 174
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 131
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 109
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 109
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 109
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 109
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 109
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 87
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 87
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 26
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 26
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_spriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
