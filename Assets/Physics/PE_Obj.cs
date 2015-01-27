@@ -165,7 +165,7 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x -= that.transform.lossyScale.x/2f;
-			b.y -= that.transform.localScale.y/2f;
+			b.y -= that.transform.lossyScale.y/2f;
 		}
 		
 		if (dir == PE_Dir.upLeft) { // Bottom, Right is the comparison corner
@@ -179,7 +179,7 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x += that.transform.lossyScale.x/2f;
-			b.y -= that.transform.localScale.y/2f;
+			b.y -= that.transform.lossyScale.y/2f;
 		}
 		
 		if (dir == PE_Dir.downLeft) { // Top, Right is the comparison corner
@@ -189,7 +189,7 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x += that.transform.lossyScale.x/2f;
-			b.y += that.transform.localScale.y/2f;
+			b.y += that.transform.lossyScale.y/2f;
 			if(!onTop() && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
@@ -203,7 +203,7 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.x -= that.transform.lossyScale.x/2f;
-			b.y += that.transform.localScale.y/2f;
+			b.y += that.transform.lossyScale.y/2f;
 			if(!onTop() && that.tag == "Platform"){
 				transform.position = pos1 = posFinal;
 				return;
