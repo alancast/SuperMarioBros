@@ -21,7 +21,7 @@ public class hitBlockCollision : MonoBehaviour {
 	
 	bool rightTop(Collider other){
 		Vector3 origin = other.transform.position;
-		origin.x += other.transform.collider.bounds.size.x;
+		origin.x += other.transform.collider.bounds.size.x/2;
 		if (Physics.Raycast(origin, 
 		                    new Vector3(0, 1, 0), 
 		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
@@ -30,7 +30,7 @@ public class hitBlockCollision : MonoBehaviour {
 	
 	bool leftTop(Collider other){
 		Vector3 origin = other.transform.position;
-		origin.x -= other.transform.collider.bounds.size.x;
+		origin.x -= other.transform.collider.bounds.size.x/2;
 		if (Physics.Raycast(origin, 
 		                    new Vector3(0, 1, 0), 
 		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
@@ -47,6 +47,7 @@ public class hitBlockCollision : MonoBehaviour {
 //		}
 		if(onTop(other) || rightTop(other) || leftTop(other)){
 			wasHit = true;
+			PE_Controller.instance.isJumping = false;
 			anim.SetBool ("wasHit", wasHit);
 		}
 
