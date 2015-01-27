@@ -134,6 +134,9 @@ public class PE_Obj : MonoBehaviour {
 				vel.y = 0;
 				
 				if (ground == null) ground = that;
+				if (PE_Controller.instance.isFlying){
+					PE_Controller.instance.isFlying = false;
+				}
 			}
 		}
 		
@@ -255,6 +258,9 @@ public class PE_Obj : MonoBehaviour {
 				vel.y = 0;
 				
 				if (ground == null) ground = that;
+				if (PE_Controller.instance.isFlying){
+					PE_Controller.instance.isFlying = false;
+				}
 			}
 			break;
 			
@@ -289,6 +295,9 @@ public class PE_Obj : MonoBehaviour {
 				vel.y = 0;
 				
 				if (ground == null) ground = that;
+				if (PE_Controller.instance.isFlying){
+					PE_Controller.instance.isFlying = false;
+				}
 			}
 			break;
 		}

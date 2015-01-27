@@ -34,13 +34,6 @@ public class FollowCam : MonoBehaviour {
 			// Get the position of the poi
 			destination = poi.transform.position;
 		}
-//		// Limit the Y to maximum value
-//		destination.y = Mathf.Min( maxY, destination.y );
-//		// Retain a destination.z of camZ 
-//		destination.z = camZ;
-//		// Set the camera to the destination 
-//		transform.position = destination;
-		//limit x position at beginning of level
 		destination.x = Mathf.Max( minX, destination.x );
 		if (destination.y > transform.position.y + 5
 			&& PE_Controller.instance.isFlying){
@@ -48,11 +41,15 @@ public class FollowCam : MonoBehaviour {
 			if (destination.y > maxY) destination.y = maxY;
 			minY = destination.y;	
 		}
-		else if(destination.y < transform.position.y - 5){
-			destination.y = destination.y + 5;
+		else if(destination.y < transform.position.y - 3){
+			destination.y = destination.y + 3;
 			if (destination.y < 0) destination.y = 0;
 			minY = destination.y;
 		}
+		//if mario is less than 8 and not flying just ease back to 0
+//		else if(destination.y > 3){
+//			destination.y -= 
+//		}
 		else{
 			destination.y = minY;
 		}
