@@ -5,8 +5,9 @@ public class killCharacter : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
-			CameraMGR.instance.lives -= 1;
-			CameraMGR.instance.livesText.text = CameraMGR.instance.lives.ToString();
+			CameraMGR.lives -= 1;
+			CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
+			Application.LoadLevel("_Scene_Alex_5");
 		}
 	}
 	

@@ -6,9 +6,9 @@ public class CameraMGR : MonoBehaviour {
 
 	public static CameraMGR instance;
 	public Text 	livesText;
-	public int 		lives;
+	public static int 		lives = 4;
 	public Text		scoreText;
-	public int 		score;
+	public static int 		score;
 	public Text 	coinageText;
 	public int 		coinage;
 	public Text 	timeText;
@@ -19,7 +19,7 @@ public class CameraMGR : MonoBehaviour {
 	}
 	
 	void Start(){
-		lives = 4;
+		//lives = 4;
 		GameObject livesGO = GameObject.Find("lives"); 
 		if (!livesGO) return;
 		livesText = livesGO.GetComponent<Text>();
@@ -40,7 +40,7 @@ public class CameraMGR : MonoBehaviour {
 	}
 	
 	void Update(){
-		timeInt = 300 - (int)Time.time;
+		timeInt = 300 - (int)Time.timeSinceLevelLoad;
 		timeText.text = timeInt.ToString();
 		if (timeInt <= 0){
 			print ("you died");
