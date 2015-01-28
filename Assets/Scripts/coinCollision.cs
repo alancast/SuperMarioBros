@@ -15,8 +15,8 @@ public class coinCollision : MonoBehaviour {
 		Destroy (this.gameObject);
 		
 		//update GUI
-		CameraMGR.instance.score += 100;
-		CameraMGR.instance.scoreText.text = CameraMGR.instance.score.ToString();
+		CameraMGR.score += 100;
+		CameraMGR.instance.scoreText.text = CameraMGR.score.ToString();
 		CameraMGR.instance.coinage += 1;
 		CameraMGR.instance.coinageText.text = CameraMGR.instance.coinage.ToString();
 	}
