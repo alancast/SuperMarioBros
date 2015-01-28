@@ -6,10 +6,14 @@ public class hitBlockCollision : MonoBehaviour {
 	Animator anim;
 	bool wasHit = false;
 	public float 		raycastDistance;
+	public GameObject 	hitItem;
+	public Vector3 		itemPos = Vector3.zero;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		itemPos = this.transform.position;
+		itemPos.y += 1f;
 	}
 	
 	bool onTop(Collider other){
@@ -46,6 +50,11 @@ public class hitBlockCollision : MonoBehaviour {
 //				anim.SetBool ("wasHit", wasHit);
 //		}
 		if(onTop(other) || rightTop(other) || leftTop(other)){
+
+			if(!wasHit){
+				Instantiate(hitItem, itemPos, Quaternion.identity);
+			}
+
 			wasHit = true;
 			PE_Controller.instance.isJumping = false;
 			anim.SetBool ("wasHit", wasHit);
