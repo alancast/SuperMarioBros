@@ -13,6 +13,12 @@ public class coinCollision : MonoBehaviour {
 		//PhysicsEngine.objs.RemoveAt (coinIndex);
 
 		Destroy (this.gameObject);
+		
+		//update GUI
+		CameraMGR.instance.score += 100;
+		CameraMGR.instance.scoreText.text = CameraMGR.instance.score.ToString();
+		CameraMGR.instance.coinage += 1;
+		CameraMGR.instance.coinageText.text = CameraMGR.instance.coinage.ToString();
 	}
 
 		

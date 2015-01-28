@@ -42,7 +42,7 @@ public class PE_Controller : MonoBehaviour {
 	public float 	flightThreshold = 15;
 	public float 	flightVelocity = 15;
 	private float 	endFlight;
-	
+		
 	void Awake(){
 		instance = this;
 	}
