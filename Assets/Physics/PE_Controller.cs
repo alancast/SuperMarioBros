@@ -187,6 +187,7 @@ public class PE_Controller : MonoBehaviour {
 					}
 				}
 				else{
+					print ("setting false");
 					isJumping = false;
 				}
 			}
