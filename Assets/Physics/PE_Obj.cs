@@ -70,7 +70,7 @@ public class PE_Obj : MonoBehaviour {
 		PE_Obj otherPEO = other.GetComponent<PE_Obj>();
 		if (otherPEO == null) return;
 		if (other.tag == "Item") return;
-		
+
 		ResolveCollisionWith(otherPEO);
 	}
 	
@@ -223,7 +223,6 @@ public class PE_Obj : MonoBehaviour {
 		// Find distance we would have to offset in x or y
 		float offsetX = Mathf.Abs(a1.x - b.x);
 		float offsetY = Mathf.Abs(a1.y - b.y);
-		bool usedX = false;
 		
 		// Use pU.y vs. b.y to tell which side of PE_Obj "that" PE_Obj "this" should be on
 		switch (dir) {
@@ -234,7 +233,6 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.x = 0;
 				
-				usedX = true;
 			} else { // hit the bottom
 				posFinal.y -= offsetY;
 				
@@ -250,7 +248,6 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.x = 0;
 				
-				usedX = true;
 			} else { // hit the top
 				posFinal.y += offsetY;
 				
@@ -271,7 +268,6 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.x = 0;
 				
-				usedX = true;
 			} else { // hit the bottom
 				posFinal.y -= offsetY;
 				
@@ -287,7 +283,6 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.x = 0;
 				
-				usedX = true;
 			} else { // hit the top
 				posFinal.y += offsetY;
 				
