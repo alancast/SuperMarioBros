@@ -43,12 +43,7 @@ public class hitBlockCollision : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		PE_Dir dir = other.gameObject.GetComponent<PE_Obj> ().dir;
-		//print ("goo");
 
-//		if (dir == PE_Dir.up) {
-//				wasHit = true;
-//				anim.SetBool ("wasHit", wasHit);
-//		}
 		if(onTop(other) || rightTop(other) || leftTop(other)){
 
 			if(!wasHit){
