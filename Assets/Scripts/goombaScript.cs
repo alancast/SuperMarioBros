@@ -32,7 +32,6 @@ public class goombaScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Player" && onTop()){
-			print ("done");
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
 			return;

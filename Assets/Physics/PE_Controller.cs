@@ -71,6 +71,7 @@ public class PE_Controller : MonoBehaviour {
 		}
 		else{
 			handleFlying();
+			print ("flying now");
 		}
 		change_velocity();
 		
@@ -111,6 +112,7 @@ public class PE_Controller : MonoBehaviour {
 		// Jumping with A (which is x or .)
 		if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
 			if (state == MarioState.Fly && Mathf.Abs(vel.x) > flightThreshold && grounded){
+				print ("flying next");
 				handleFlying();
 				return;
 			}
@@ -157,6 +159,7 @@ public class PE_Controller : MonoBehaviour {
 	}
 	
 	void handleFlying(){
+		print ("started flying");
 		vel = peo.vel;
 		//first call from handleJumping
 		if (!isFlying){
@@ -171,8 +174,10 @@ public class PE_Controller : MonoBehaviour {
 			stopHeight = peo.transform.position.y + maxJumpHeight;
 		}
 		else{
+			print ("am I jumping?");
 			//hasn't yet hit max height from initial jump
 			if (isJumping){
+				print ("yes");
 				if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.Period)){
 					if (peo.transform.position.y > stopHeight){
 						isJumping = false;
