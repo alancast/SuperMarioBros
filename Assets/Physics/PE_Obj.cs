@@ -171,6 +171,12 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x -= that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			if (a1.y < (b.y +.2)){
+				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
+				transform.position = pos1 = posFinal;
+				vel.y = 0;
+				return;
+			}
 		}
 		
 		if (dir == PE_Dir.upLeft) { // Bottom, Right is the comparison corner
@@ -185,6 +191,12 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x += that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			if (a1.y < (b.y +.2)){
+				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
+				transform.position = pos1 = posFinal;
+				vel.y = 0;
+				return;
+			}
 		}
 		
 		if (dir == PE_Dir.downLeft) { // Top, Right is the comparison corner
@@ -233,17 +245,13 @@ public class PE_Obj : MonoBehaviour {
 				
 				// Handle vel
 				vel.x = 0;
+				print ("left side");
 				
-			} else { // hit the bottom
-				posFinal.y -= offsetY;
-				
-				// Handle vel
-				vel.y = 0;
 			}
 			break;
 			
 		case PE_Dir.downRight:
-			if (pU.y < b.y || u == 0) { // hit the left side
+			if (pU.y < (b.y -.1f) || u == 0) { // hit the left side
 				posFinal.x -= offsetX;
 				
 				// Handle vel
@@ -269,16 +277,11 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.x = 0;
 				
-			} else { // hit the bottom
-				posFinal.y -= offsetY;
-				
-				// Handle vel
-				vel.y = 0;
 			}
 			break;
 			
 		case PE_Dir.downLeft:
-			if (pU.y < b.y || u == 0) { // hit the right side
+			if (pU.y < (b.y -.1f) || u == 0) { // hit the right side
 				posFinal.x += offsetX;
 				
 				// Handle vel
