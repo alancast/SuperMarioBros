@@ -16,35 +16,26 @@ public class hitBlockCollision : MonoBehaviour {
 		itemPos.y += 1f;
 	}
 	
-	bool onTop(Collider other){
-		if (Physics.Raycast(other.transform.position, 
-		                    new Vector3(0, 1, 0), 
-		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
-		else return false;
-	}
-	
-	bool rightTop(Collider other){
-		Vector3 origin = other.transform.position;
-		origin.x += other.transform.collider.bounds.size.x/2;
-		if (Physics.Raycast(origin, 
-		                    new Vector3(0, 1, 0), 
-		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
-		else return false;
-	}
-	
-	bool leftTop(Collider other){
-		Vector3 origin = other.transform.position;
-		origin.x -= other.transform.collider.bounds.size.x/2;
-		if (Physics.Raycast(origin, 
-		                    new Vector3(0, 1, 0), 
-		                    other.transform.collider.bounds.size.y + raycastDistance)) return true;
-		else return false;
+	bool below(){
+		//return true if middle is under
+		//or if only left or right is under
+		Vector3 origin = transform.position;
+		origin.x += collider.bounds.size.x/2;
+		bool middle, left, right;
+		right = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
+		origin.x -= collider.bounds.size.x;
+		left = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
+		middle = Physics.Raycast(transform.position, new Vector3(0, -1, 0), collider.bounds.size.y +.1f);
+		if (middle) return true;
+//		if (left && !middle && !right) return true;
+//		if (right && !middle && !left) return true;
+		return false;
 	}
 
 	void OnTriggerEnter(Collider other) {
 		PE_Dir dir = other.gameObject.GetComponent<PE_Obj> ().dir;
-
-		if(onTop(other) || rightTop(other) || leftTop(other)){
+		
+		if(below ()){
 
 			if(!wasHit){
 				Instantiate(hitItem, itemPos, Quaternion.identity);

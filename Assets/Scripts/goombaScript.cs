@@ -8,8 +8,12 @@ public class goombaScript : MonoBehaviour {
 	public float x_vel = 1f;
 	//public BoxCollider this_collider;
 	
+<<<<<<< HEAD
 	public bool onTop(){
 		print (transform.position);
+=======
+	bool onTop(){
+>>>>>>> Alex
 		Vector3 origin = transform.position;
 		origin.x += collider.bounds.size.x/2;
 		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 
