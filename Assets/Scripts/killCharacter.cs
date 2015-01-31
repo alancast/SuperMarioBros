@@ -34,6 +34,10 @@ public class killCharacter : MonoBehaviour {
 					PE_Controller.instance.state = MarioState.Big;
 					invicible = Time.time + 2f;
 				}
+
+
+				Animator anim = other.GetComponent<Animator>();
+				anim.SetInteger("state", (int) PE_Controller.instance.state);
 			}
 		}
 	}

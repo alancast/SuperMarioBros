@@ -3,26 +3,30 @@ using System.Collections;
 
 public class goombaScript : MonoBehaviour {
 
-	PE_Obj this_Goomba;
+	public PE_Obj this_Goomba;
+	public float marioKillVel = 25f;
+	public float x_vel = 1f;
+	//public BoxCollider this_collider;
 	
-	bool onTop(){
+	public bool onTop(){
 		print (transform.position);
 		Vector3 origin = transform.position;
-		origin.x += transform.collider.bounds.size.x/2;
+		origin.x += collider.bounds.size.x/2;
 		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 
-		                    transform.collider.bounds.size.y + .1f)) return true;
-		origin.x -= transform.collider.bounds.size.x;
+		                    collider.bounds.size.y + .1f)) return true;
+		origin.x -= collider.bounds.size.x;
 		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 
-		                    transform.collider.bounds.size.y + .1f)) return true;
+		                    collider.bounds.size.y + .1f)) return true;
 		if (Physics.Raycast(transform.position, new Vector3(0, 1, 0), 
-		                    	transform.collider.bounds.size.y +.1f)) return true;
+		                    	collider.bounds.size.y + .1f)) return true;
 		return false;
 	}
 	
 	// Use this for initialization
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
-		this_Goomba.vel.x = 1;
+		this_Goomba.vel.x = x_vel;
+
 	}
 	
 	// Update is called once per frame
@@ -32,13 +36,20 @@ public class goombaScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Player" && onTop()){
+
+			PE_Obj marioPhys = other.GetComponent<PE_Obj> ();
+			marioPhys.vel.y = marioKillVel;
+
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
+
 			return;
 		}
 		
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			this_Goomba.vel = -this_Goomba.vel0;
+			if (other.tag != "Player"){
+				this_Goomba.vel = -this_Goomba.vel0;
+			}
 		}
 
 
