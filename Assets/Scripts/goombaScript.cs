@@ -6,7 +6,6 @@ public class goombaScript : MonoBehaviour {
 	PE_Obj this_Goomba;
 	
 	bool onTop(){
-		print (transform.position);
 		Vector3 origin = transform.position;
 		origin.x += transform.collider.bounds.size.x/2;
 		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 

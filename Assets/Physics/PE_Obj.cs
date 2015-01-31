@@ -55,6 +55,35 @@ public class PE_Obj : MonoBehaviour {
 		else return false;
 	}
 	
+	bool upAndAroundLeft(){
+		//should return true if right raycast is under block but middle isn't
+		Vector3 origin = transform.position;
+		origin.x += transform.collider.bounds.size.x/2f;
+		//if right isn't under block
+		if (!Physics.Raycast(origin, new Vector3(0, 1, 0), 
+		                    transform.collider.bounds.size.y + .1f)){
+			return false;
+		}
+		//if middle isn't under block
+		if (!Physics.Raycast(transform.position, new Vector3(0, 1, 0), 
+		                    transform.collider.bounds.size.y +.1f)){
+			return true;                    
+		}
+		return false;
+	}
+	bool upAndAroundRight(){
+		//should return true if left raycast is under block but middle isn't
+		Vector3 origin = transform.position;
+		origin.x -= transform.collider.bounds.size.x/2f;
+		//if left isn't under block
+		if (!Physics.Raycast(origin, new Vector3(0, 1, 0), 
+		                     transform.collider.bounds.size.y + .1f)) return false;
+		//if middle isn't under block
+		if (!Physics.Raycast(transform.position, new Vector3(0, 1, 0), 
+		                     transform.collider.bounds.size.y +.1f)) return true;
+		return false;
+	}
+	
 	
 	void Start() {
 		if (PhysicsEngine.objs.IndexOf(this) == -1) {
@@ -71,6 +100,8 @@ public class PE_Obj : MonoBehaviour {
 		if (otherPEO == null) return;
 		if (other.tag == "Item") return;
 		if (other.tag == "Coin") return;
+		if (other.tag == "Goomba") return;
+		if (tag == "Goomba" && other.tag == "Player") return;
 
 		ResolveCollisionWith(otherPEO);
 	}
@@ -152,7 +183,22 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.y -= that.collider.bounds.size.y/2f;
-			if ( PhysicsEngine.LEQ( a0.y, b.y ) && b.y < a1.y) {
+			//to go up and around block
+			if (upAndAroundLeft()){
+				float upOffsetX = Mathf.Abs((b.x - that.collider.bounds.size.x/2f) - (a1.x + collider.bounds.size.x/2f) - .2f);
+				posFinal.x -= upOffsetX;
+				// Handle vel
+				vel.x = 0;
+				print ("left");
+			}
+			else if (upAndAroundRight()){
+				float upOffsetX = Mathf.Abs((b.x + that.collider.bounds.size.x/2f) - (a1.x - collider.bounds.size.x/2f) + .2f);
+				posFinal.x += upOffsetX;
+				// Handle vel
+				vel.x = 0;
+				print ("right");
+			}
+			else if ( PhysicsEngine.LEQ( a0.y, b.y ) && b.y < a1.y) {
 				posFinal.y -= Mathf.Abs( a1.y - b.y );
 				// Handle vel
 				vel.y = 0;
@@ -172,7 +218,7 @@ public class PE_Obj : MonoBehaviour {
 			b.x -= that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
 			//underneath object
-			if (a1.y < (b.y +.2)){
+			if (a1.y < (b.y +.8)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
 				vel.y = 0;
@@ -193,7 +239,7 @@ public class PE_Obj : MonoBehaviour {
 			b.x += that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
 			//underneath object
-			if (a1.y < (b.y +.2)){
+			if (a1.y < (b.y +.8)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
 				vel.y = 0;
@@ -246,9 +292,7 @@ public class PE_Obj : MonoBehaviour {
 				posFinal.x -= offsetX;
 				
 				// Handle vel
-				vel.x = 0;
-				print ("left side");
-				
+				vel.x = 0;				
 			}
 			break;
 			
