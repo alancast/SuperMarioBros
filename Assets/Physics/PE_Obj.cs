@@ -171,6 +171,7 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x -= that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			//underneath object
 			if (a1.y < (b.y +.2)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
@@ -191,6 +192,7 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x += that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			//underneath object
 			if (a1.y < (b.y +.2)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
