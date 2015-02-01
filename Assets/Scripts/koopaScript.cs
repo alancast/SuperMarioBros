@@ -47,7 +47,6 @@ public class koopaScript : goombaScript {
 		}
 
 		else if (other.tag == "Player" && this.GetComponent<koopaScript> ().onTop()){
-			tag = "Goomba";
 
 			PE_Obj marioPhys = other.GetComponent<PE_Obj> ();
 			marioPhys.vel.y = marioKillVel;
