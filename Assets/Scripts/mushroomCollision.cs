@@ -44,16 +44,16 @@ public class mushroomCollision : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Player") {		
+		if (other.tag == "Player") {
+				
 			PE_Controller mario_Control = other.GetComponent<PE_Controller> ();
-			int[] states = {(int)(mario_Control.state + 1), 2};
-			int newState = Mathf.Min (states);
-			mario_Control.state = (MarioState)newState;
-
 			if(mario_Control.state == MarioState.Fly){
 				CameraMGR.lives++;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString(); 
 			}
+			int[] states = {(int)(mario_Control.state + 1), 2};
+			int newState = Mathf.Min (states);
+			mario_Control.state = (MarioState)newState;
 
 						//remove shroom
 			PE_Obj thisShroom = this.GetComponent<PE_Obj> ();
