@@ -62,7 +62,7 @@ public class goombaScript : MonoBehaviour {
 		}
 		
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player"){
+			if (other.tag != "Player" && other.tag != "Item"){
 				this_Goomba.vel = -this_Goomba.vel0;
 			}
 		}
