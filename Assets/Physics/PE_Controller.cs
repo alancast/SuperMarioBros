@@ -42,6 +42,9 @@ public class PE_Controller : MonoBehaviour {
 	public float 	flightThreshold = 15;
 	public float 	flightVelocity = 15;
 	private float 	endFlight;
+	
+	//to make sure he doesn't hit two blocks at the same time
+	public float 	cantHitTil;
 		
 	void Awake(){
 		instance = this;
