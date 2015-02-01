@@ -99,8 +99,12 @@ public class PE_Obj : MonoBehaviour {
 		if (other.tag == "Item" && tag == "Player") return;
 		if (other.tag == "Coin") return;
 		if (other.tag == "Goomba") return;
+		if (other.tag == "GoombaCollider" && tag != "Goomba") return;
 		if (tag == "Goomba" && other.tag == "Player") return;
-		if (tag == "Shell" && other.tag == "Goomba") return;
+		if ((tag == "Shell" && other.tag == "Goomba") ||
+			(other.tag == "Shell" && tag == "Goomba")) return;
+		if ((tag == "Item" && other.tag == "Goomba") ||
+		    (other.tag == "Item" && tag == "Goomba")) return;
 		if (tag == "Shell" && other.tag == "HitBlock"){
 			hitBlockCollision block_instance = otherPEO.GetComponent<hitBlockCollision>();
 			block_instance.blockHit();
