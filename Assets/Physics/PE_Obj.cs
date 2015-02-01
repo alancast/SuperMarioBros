@@ -49,10 +49,8 @@ public class PE_Obj : MonoBehaviour {
 	}
 	
 	bool onTop(){
-		if (Physics.Raycast(transform.position, 
-		                    new Vector3(0, -1, 0), 
-		                    transform.collider.bounds.size.y + raycastDistance)) return true;
-		else return false;
+		return Physics.Raycast(transform.position, new Vector3(0, -1, 0), 
+		                    collider.bounds.size.y/2 + raycastDistance);
 	}
 	
 	bool upAndAroundLeft(){
@@ -198,10 +196,18 @@ public class PE_Obj : MonoBehaviour {
 				vel.x = 0;
 				print ("right");
 			}
-			else if ( PhysicsEngine.LEQ( a0.y, b.y ) && b.y < a1.y) {
+			//underneath block
+			else if ( PhysicsEngine.LEQ( a0.y, b.y ) && b.y <= a1.y) {
 				posFinal.y -= Mathf.Abs( a1.y - b.y );
 				// Handle vel
 				vel.y = 0;
+				PE_Controller.instance.isJumping = false;
+				if (that.tag == "HitBlock"){
+					if(Time.time > PE_Controller.instance.cantHitTil){
+						hitBlockCollision block_instance = that.GetComponent<hitBlockCollision>();
+						block_instance.blockHit();
+					}
+				}
 			}
 		}
 		
@@ -218,10 +224,17 @@ public class PE_Obj : MonoBehaviour {
 			b.x -= that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
 			//underneath object
-			if (a1.y < (b.y +.8)){
+			if (a1.y < (b.y +.4)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
 				vel.y = 0;
+				PE_Controller.instance.isJumping = false;
+				if (that.tag == "HitBlock"){
+					if(Time.time > PE_Controller.instance.cantHitTil){
+						hitBlockCollision block_instance = that.GetComponent<hitBlockCollision>();
+						block_instance.blockHit();
+					}
+				}
 				return;
 			}
 		}
@@ -239,10 +252,17 @@ public class PE_Obj : MonoBehaviour {
 			b.x += that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
 			//underneath object
-			if (a1.y < (b.y +.8)){
+			if (a1.y < (b.y +.4)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
 				transform.position = pos1 = posFinal;
 				vel.y = 0;
+				PE_Controller.instance.isJumping = false;
+				if (that.tag == "HitBlock"){
+					if(Time.time > PE_Controller.instance.cantHitTil){
+						hitBlockCollision block_instance = that.GetComponent<hitBlockCollision>();
+						block_instance.blockHit();
+					}
+				}
 				return;
 			}
 		}
