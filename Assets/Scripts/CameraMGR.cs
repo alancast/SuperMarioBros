@@ -13,6 +13,7 @@ public class CameraMGR : MonoBehaviour {
 	public int 		coinage;
 	public Text 	timeText;
 	public int 		timeInt;
+	public Text 	BeastModeText;
 		
 	void Awake(){
 		instance = this;
@@ -37,6 +38,15 @@ public class CameraMGR : MonoBehaviour {
 		if (!timeGO) return;
 		timeText = timeGO.GetComponent<Text>();
 		timeText.text = timeInt.ToString();
+		GameObject BeastModeGO = GameObject.Find("BeastMode"); 
+		if (!BeastModeGO) return;
+		BeastModeText = BeastModeGO.GetComponent<Text>();
+		if (PE_Controller.BeastMode){
+			BeastModeText.text = "Beast Mode Enabled";
+		}
+		else{
+			BeastModeText.text = "Beast Mode Off";
+		}
 	}
 	
 	void Update(){

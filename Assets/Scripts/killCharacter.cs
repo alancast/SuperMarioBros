@@ -7,6 +7,7 @@ public class killCharacter : MonoBehaviour {
 	public float	invicible;
 
 	void OnTriggerEnter(Collider other){
+		if (PE_Controller.BeastMode) return;
 		if (other.tag == "Player"){
 			//fell off map
 			if (fullKill){

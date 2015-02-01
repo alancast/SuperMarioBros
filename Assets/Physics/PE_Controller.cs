@@ -9,6 +9,7 @@ public enum MarioState{
 
 public class PE_Controller : MonoBehaviour {
 	public static PE_Controller instance;
+	public static bool BeastMode = false;
 	private PE_Obj peo;
 	public MarioState	state = MarioState.Small;
 	
@@ -61,6 +62,16 @@ public class PE_Controller : MonoBehaviour {
 	
 	void Update () {
 		grounded = (peo.ground != null);
+		
+		if (Input.GetKeyDown(KeyCode.G)){
+			BeastMode = !BeastMode;
+			if (BeastMode){
+				CameraMGR.instance.BeastModeText.text = "Beast Mode Enabled";
+			}
+			else{
+				CameraMGR.instance.BeastModeText.text = "Beast Mode Off";
+			}
+		}
 		
 		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
 			acceleration = -accel_speed;
