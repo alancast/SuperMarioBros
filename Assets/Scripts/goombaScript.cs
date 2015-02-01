@@ -9,16 +9,23 @@ public class goombaScript : MonoBehaviour {
 	//public BoxCollider this_collider;
 	
 	public bool onTop(){
+		PE_Obj marioPhys = PE_Controller.instance.GetComponent<PE_Obj> ();
+
 		print (transform.position);
 		Vector3 origin = transform.position;
 		origin.x += collider.bounds.size.x/2;
-		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 
-		                    collider.bounds.size.y + .1f)) return true;
-		origin.x -= collider.bounds.size.x;
-		if (Physics.Raycast(origin, new Vector3(0, 1, 0), 
-		                    collider.bounds.size.y + .1f)) return true;
-		if (Physics.Raycast(transform.position, new Vector3(0, 1, 0), 
-		                    	collider.bounds.size.y + .1f)) return true;
+		if (marioPhys.vel.y <= 0) {
+				if (Physics.Raycast (origin, new Vector3 (0, 1, 0), 
+		                    collider.bounds.size.y / 2 + .1f))
+								return true;
+				origin.x -= collider.bounds.size.x;
+				if (Physics.Raycast (origin, new Vector3 (0, 1, 0), 
+		                    collider.bounds.size.y / 2 + .1f))
+							return true;
+				if (Physics.Raycast (transform.position, new Vector3 (0, 1, 0), 
+		                    collider.bounds.size.y / 2 + .1f))
+							return true;
+		}
 		return false;
 	}
 	
@@ -39,6 +46,9 @@ public class goombaScript : MonoBehaviour {
 
 			PE_Obj marioPhys = other.GetComponent<PE_Obj> ();
 			marioPhys.vel.y = marioKillVel;
+
+			PE_Controller.instance.isJumping = true;
+			PE_Controller.instance.stopHeight = marioPhys.transform.position.y + PE_Controller.instance.maxJumpHeight;
 
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
