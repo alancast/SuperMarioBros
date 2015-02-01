@@ -10,7 +10,7 @@ public enum KoopaState{
 public class koopaScript : goombaScript {
 
 	public KoopaState	state = KoopaState.Koopa;
-	public float 		shellVel = 18f;
+	//public float 		shellVel = 18f;
 	Animator koopaAnim;
 	bool isShell = false;
 	public Transform killZone;
@@ -18,7 +18,7 @@ public class koopaScript : goombaScript {
 	Vector3 shellColliderDim = new Vector3(.7f, .9f, .2f);
 	Vector3 startKillZonePos = Vector3.zero;
 	Vector3 shellKillZoneSize = new Vector3(.66f, .3f, 1f);
-	public float shellSpeed = 25f;
+	public float shellSpeed = 15f;
 
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
@@ -44,11 +44,10 @@ public class koopaScript : goombaScript {
 			this.state = KoopaState.MovingShell;
 			killZone = transform.GetChild(0);
 			killZone.position = transform.position;
-			
 		}
 
 		else if (other.tag == "Player" && this.GetComponent<koopaScript> ().onTop()){
-
+			tag = "Goomba";
 
 			PE_Obj marioPhys = other.GetComponent<PE_Obj> ();
 			marioPhys.vel.y = marioKillVel;
@@ -69,6 +68,7 @@ public class koopaScript : goombaScript {
 				tmp.y = -200f;
 				killZone.position = tmp;
 				killZone.localScale = shellKillZoneSize;
+				tag = "Shell";
 
 			}
 			else if (this.state == KoopaState.MovingShell){
@@ -84,7 +84,7 @@ public class koopaScript : goombaScript {
 
 
 		else if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player"){
+			if (other.tag != "Player" && this_Goomba.vel0.y == 0 && other.tag != "Goomba"){
 				this_Goomba.vel = -this_Goomba.vel0;
 			}
 		}

@@ -13,7 +13,7 @@ public class hitBlockCollision : MonoBehaviour {
 	void Start () {
 		anim = GetComponent<Animator> ();
 		itemPos = this.transform.position;
-		itemPos.y += 1f;
+		itemPos.y += 2f;
 	}
 	
 	bool below(){

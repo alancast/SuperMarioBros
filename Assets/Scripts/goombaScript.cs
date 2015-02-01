@@ -42,7 +42,7 @@ public class goombaScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Player" && onTop()){
+		if (other.tag == "Player" && onTop() ){
 
 			PE_Obj marioPhys = other.GetComponent<PE_Obj> ();
 			marioPhys.vel.y = marioKillVel;
@@ -54,6 +54,11 @@ public class goombaScript : MonoBehaviour {
 			Destroy(this.gameObject);
 
 			return;
+		}
+
+		if (other.tag == "Shell") {
+			PhysicsEngine.objs.Remove (this_Goomba);
+			Destroy(this.gameObject);
 		}
 		
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
