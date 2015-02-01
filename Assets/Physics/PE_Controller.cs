@@ -39,9 +39,14 @@ public class PE_Controller : MonoBehaviour {
 	// Different x & y to limit maximum falling velocity
 	public Vector2	maxSpeed = new Vector2( 8, 15 ); 
 	public float 	maxSprintX = 16;
+	public Vector2	maxFlightSpeed = new Vector2( 6.5f, 15 );
 	public float 	flightThreshold = 15;
-	public float 	flightVelocity = 15;
+	public float 	flightVelocity = 12;
 	private float 	endFlight;
+	//time since last button press
+	private float 	lastFlightPress;
+	//length of time between button presses til velocity drops
+	public float	flightButtonThreshold = .3f;
 	
 	//to make sure he doesn't hit two blocks at the same time
 	public float 	cantHitTil;
@@ -80,9 +85,13 @@ public class PE_Controller : MonoBehaviour {
 	}
 	
 	void change_velocity(){
-		if(!isSprinting && !slowingDown){
+		if(!isSprinting && !slowingDown && !isFlying){
 			if (peo.vel.x < -maxSpeed.x && acceleration < 0) return;
 			if (peo.vel.x > maxSpeed.x && acceleration > 0) return;
+		}
+		else if (isFlying){
+			if (peo.vel.x < -maxFlightSpeed.x && acceleration < 0) return;
+			if (peo.vel.x > maxFlightSpeed.x && acceleration > 0) return;
 		}
 		else if(slowingDown){
 			if (peo.vel.x < -maxSpeed.x) acceleration = accel_speed;
@@ -164,6 +173,7 @@ public class PE_Controller : MonoBehaviour {
 		//first call from handleJumping
 		if (!isFlying){
 			isFlying = true;
+			isSprinting = false;
 			//set time limit
 			endFlight = Time.time + 5;
 			vel.y = jumpVel;
@@ -188,8 +198,17 @@ public class PE_Controller : MonoBehaviour {
 				}
 			}
 			else{
-				if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
+				if (Time.time - lastFlightPress < flightButtonThreshold){
 					vel.y = flightVelocity;
+					if (vel.x > maxFlightSpeed.x){
+						vel.x = maxFlightSpeed.x;
+					}
+					if (vel.x < -maxFlightSpeed.x){
+						vel.x = -maxFlightSpeed.x;
+					}
+				}
+				if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Period)) {
+					lastFlightPress = Time.time;
 				}
 			}
 		}

@@ -16,27 +16,6 @@ public class hitBlockCollision : MonoBehaviour {
 		itemPos.y += 1f;
 	}
 	
-	bool below(){
-		//return true if middle is under
-		//or if only left or right is under
-		Vector3 origin = transform.position;
-		bool middle, left, right, leftMid, rightMid;
-		origin.x += collider.bounds.size.x/3;
-		rightMid = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
-//		origin.x += collider.bounds.size.x/4;
-//		right = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
-		origin.x -= collider.bounds.size.x/3;
-		origin.x -= collider.bounds.size.x/3;
-//		left = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
-//		origin.x += collider.bounds.size.x/4;
-		leftMid = Physics.Raycast(origin, new Vector3(0, -1, 0), collider.bounds.size.y + .1f);
-		middle = Physics.Raycast(transform.position, new Vector3(0, -1, 0), collider.bounds.size.y +.1f);
-		if (middle || leftMid || rightMid) return true;
-//		if (left && !middle && !right) return true;
-//		if (right && !middle && !left) return true;
-		return false;
-	}
-	
 	public void blockHit(){
 		if(!wasHit){
 			Instantiate(hitItem, itemPos, Quaternion.identity);
