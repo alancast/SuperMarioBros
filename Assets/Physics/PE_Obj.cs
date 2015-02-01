@@ -96,10 +96,15 @@ public class PE_Obj : MonoBehaviour {
 		
 		PE_Obj otherPEO = other.GetComponent<PE_Obj>();
 		if (otherPEO == null) return;
-		if (other.tag == "Item") return;
+		if (other.tag == "Item" && tag == "Player") return;
 		if (other.tag == "Coin") return;
 		if (other.tag == "Goomba") return;
 		if (tag == "Goomba" && other.tag == "Player") return;
+		if (tag == "Shell" && other.tag == "Goomba") return;
+		if (tag == "Shell" && other.tag == "HitBlock"){
+			hitBlockCollision block_instance = otherPEO.GetComponent<hitBlockCollision>();
+			block_instance.blockHit();
+		}
 
 		ResolveCollisionWith(otherPEO);
 	}
