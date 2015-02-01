@@ -8,8 +8,8 @@ public class MenuScreenScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Alpha1)){
 			Application.LoadLevel("_Scene_Alex_7");
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha9)){
-			print ("button 9 pressed");
+		else if (Input.GetKeyDown(KeyCode.Alpha2)){
+			print ("button 2 pressed");
 //			Application.loadedLevel("_Scene_Alex_7");
 		}
 	
