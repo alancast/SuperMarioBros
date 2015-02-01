@@ -50,6 +50,11 @@ public class mushroomCollision : MonoBehaviour {
 			int newState = Mathf.Min (states);
 			mario_Control.state = (MarioState)newState;
 
+			if(mario_Control.state == MarioState.Fly){
+				CameraMGR.lives++;
+				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString(); 
+			}
+
 						//remove shroom
 			PE_Obj thisShroom = this.GetComponent<PE_Obj> ();
 			PhysicsEngine.objs.Remove (thisShroom);
