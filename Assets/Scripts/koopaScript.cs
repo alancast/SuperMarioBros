@@ -119,6 +119,11 @@ public class koopaScript : goombaScript {
 
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
+
+		}
+
+		if(this.state == KoopaState.Winged && other.tag == "GoombaCollider"){
+			this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 		}
 		
 		

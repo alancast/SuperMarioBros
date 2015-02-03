@@ -96,6 +96,9 @@ public class goombaScript : MonoBehaviour {
 				&& other.tag != "Goomba"){
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
+			if(this.goombaState == GoombaState.Winged && other.tag == "GoombaCollider"){
+				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
+			}
 		}
 
 
