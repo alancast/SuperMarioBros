@@ -36,7 +36,7 @@ public class FollowCam : MonoBehaviour {
 		}
 		destination.x = Mathf.Max( minX, destination.x );
 		if (destination.y > transform.position.y + 5
-			&& PE_Controller.instance.isFlying){
+			&& (PE_Controller.instance.isFlying || PE_Controller.instance.isAlpha)){
 			destination.y = destination.y - 5;
 			if (destination.y > maxY) destination.y = maxY;
 			minY = destination.y;	
@@ -46,10 +46,6 @@ public class FollowCam : MonoBehaviour {
 			if (destination.y < 0) destination.y = 0;
 			minY = destination.y;
 		}
-		//if mario is less than 8 and not flying just ease back to 0
-//		else if(destination.y > 3){
-//			destination.y -= 
-//		}
 		else{
 			destination.y = minY;
 		}

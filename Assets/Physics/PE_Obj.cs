@@ -101,8 +101,8 @@ public class PE_Obj : MonoBehaviour {
 		if (other.tag == "Goomba") return;
 		if ((other.tag == "GoombaCollider" && tag != "Goomba") ||
 		    (tag == "GoombaCollider" && other.tag != "Goomba")) return;
-		if ((other.tag == "HitBlock" && tag == "Goomba") ||
-		    (tag == "HitBlock" && other.tag == "Goomba")) return;
+		if ((other.tag == "HitBlock" && tag == "Goomba" && !PE_Controller.instance.isAlpha) ||
+		    (tag == "HitBlock" && other.tag == "Goomba" && !PE_Controller.instance.isAlpha)) return;
 		if ((other.tag == "Goomba" && tag == "Goomba") ||
 		    (tag == "Goomba" && other.tag == "Goomba")) return;
 		if (tag == "Goomba" && other.tag == "Player") return;
@@ -197,6 +197,13 @@ public class PE_Obj : MonoBehaviour {
 			a0 = a1 - delta;
 			b = that.pos1;
 			b.y -= that.collider.bounds.size.y/2f;
+			//hang to the ceiling
+			if (that.tag == "Alpha"){
+				posFinal.y -= Mathf.Abs( a1.y - b.y );
+				transform.position = pos1 = posFinal;
+				vel.y = 0;
+				return;
+			}
 			//to go up and around block
 			if (upAndAroundLeft()){
 				float upOffsetX = Mathf.Abs((b.x - that.collider.bounds.size.x/2f) - (a1.x + collider.bounds.size.x/2f) - .2f);
@@ -239,6 +246,14 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x -= that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			//underneath the alpha
+			if (that.tag == "Alpha" && a1.y < (b.y +.4)){
+				posFinal.y -= Mathf.Abs( a1.y - b.y );
+				transform.position = pos1 = posFinal;
+				vel.y = 0;
+				PE_Controller.instance.stopHeight = transform.position.y + PE_Controller.instance.maxJumpHeight;
+				return;
+			}
 			//underneath object
 			if (a1.y < (b.y +.4)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
@@ -267,6 +282,14 @@ public class PE_Obj : MonoBehaviour {
 			b = that.pos1;
 			b.x += that.collider.bounds.size.x/2f;
 			b.y -= that.collider.bounds.size.y/2f;
+			//underneath the alpha
+			if (that.tag == "Alpha" && a1.y < (b.y +.4)){
+				posFinal.y -= Mathf.Abs( a1.y - b.y );
+				transform.position = pos1 = posFinal;
+				vel.y = 0;
+				PE_Controller.instance.stopHeight = transform.position.y + PE_Controller.instance.maxJumpHeight;
+				return;
+			}
 			//underneath object
 			if (a1.y < (b.y +.4)){
 				posFinal.y = b.y - that.collider.bounds.size.y/2f - collider.bounds.size.y/2f;
@@ -345,6 +368,10 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.y = 0;
 				
+				if (this.tag != "Player"){
+					transform.position = pos1 = posFinal;
+					return;
+				}
 				if (ground == null) ground = that;
 				if (PE_Controller.instance.isFlying){
 					PE_Controller.instance.isFlying = false;
@@ -375,6 +402,10 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.y = 0;
 				
+				if (this.tag != "Player"){
+					transform.position = pos1 = posFinal;
+					return;
+				}
 				if (ground == null) ground = that;
 				if (PE_Controller.instance.isFlying){
 					PE_Controller.instance.isFlying = false;

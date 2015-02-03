@@ -74,6 +74,7 @@ public class koopaScript : goombaScript {
 			marioPhys.vel.y = marioKillVel;
 
 			PE_Controller.instance.isJumping = true;
+			PE_Controller.instance.justKilled = true;
 			PE_Controller.instance.stopHeight = marioPhys.transform.position.y + PE_Controller.instance.maxJumpHeight;
 
 
