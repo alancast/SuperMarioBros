@@ -63,7 +63,7 @@ public class mushroomCollision : MonoBehaviour {
 			Animator anim = other.GetComponent<Animator> ();
 			anim.SetInteger ("state", (int)mario_Control.state);
 		} else if(this_mushroom.dir == PE_Dir.downLeft || this_mushroom.dir == PE_Dir.downRight){
-			if(this_mushroom.vel0.y == 0){
+			if(this_mushroom.vel0.y == 0 && other.tag != "Goomba" && other.tag != "HitBlock"){
 				shroomVel *= -1;
 			}
 		}

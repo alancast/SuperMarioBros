@@ -10,7 +10,7 @@ public class goombaScript : MonoBehaviour {
 
 	public PE_Obj this_Goomba;
 	public float marioKillVel = 25f;
-	public float x_vel = 3f;
+	public float x_vel = -2f;
 	public GoombaState goombaState = GoombaState.Winged;
 	Animator goombaAnim;
 	float startTime;
@@ -21,7 +21,6 @@ public class goombaScript : MonoBehaviour {
 	public bool onTop(){
 		PE_Obj marioPhys = PE_Controller.instance.GetComponent<PE_Obj> ();
 
-		print (transform.position);
 		Vector3 origin = transform.position;
 		origin.x += collider.bounds.size.x/2;
 		if (marioPhys.vel.y <= 0) {
@@ -93,7 +92,8 @@ public class goombaScript : MonoBehaviour {
 		}
 		
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player" && other.tag != "Item" && this_Goomba.vel0.y > -.1){
+			if (other.tag != "Player" && other.tag != "Item" && this_Goomba.vel0.y > -.1
+				&& other.tag != "Goomba"){
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
 		}

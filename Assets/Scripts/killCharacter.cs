@@ -9,7 +9,7 @@ public class killCharacter : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Goomba") {
 			koopaScript otherEnemy = other.GetComponent<koopaScript> ();
-			if(otherEnemy.state == KoopaState.Winged){
+			if(otherEnemy && otherEnemy.state == KoopaState.Winged){
 				other.transform.position = otherEnemy.dest;
 			}
 		}
