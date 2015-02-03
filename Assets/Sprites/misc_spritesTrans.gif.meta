@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: c32bfbd7f536b4d3cb0a0d04fb7e6490
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: misc_spritesTrans_0
+    21300002: misc_spritesTrans_1
+    21300004: misc_spritesTrans_2
+    21300006: misc_spritesTrans_3
+    21300008: misc_spritesTrans_4
+    21300010: misc_spritesTrans_5
+    21300012: misc_spritesTrans_6
+    21300014: misc_spritesTrans_7
+    21300016: misc_spritesTrans_8
+    21300018: misc_spritesTrans_9
+    21300020: misc_spritesTrans_10
+    21300022: misc_spritesTrans_11
+    21300024: misc_spritesTrans_12
+    21300026: misc_spritesTrans_13
+    21300028: misc_spritesTrans_14
+    21300030: misc_spritesTrans_15
+    21300032: misc_spritesTrans_16
+    21300034: misc_spritesTrans_17
+    21300036: misc_spritesTrans_18
+    21300038: misc_spritesTrans_19
+    21300040: misc_spritesTrans_20
+    21300042: misc_spritesTrans_21
+    21300044: misc_spritesTrans_22
+    21300046: misc_spritesTrans_23
+    21300048: misc_spritesTrans_24
+    21300050: misc_spritesTrans_25
+    21300052: misc_spritesTrans_26
+    21300054: misc_spritesTrans_27
+    21300056: misc_spritesTrans_28
+    21300058: misc_spritesTrans_29
+    21300060: misc_spritesTrans_30
+    21300062: misc_spritesTrans_31
+    21300064: misc_spritesTrans_32
+    21300066: misc_spritesTrans_33
+    21300068: misc_spritesTrans_34
+    21300070: misc_spritesTrans_35
+    21300072: misc_spritesTrans_36
+    21300074: misc_spritesTrans_37
+    21300076: misc_spritesTrans_38
+    21300078: misc_spritesTrans_39
+    21300080: misc_spritesTrans_40
+    21300082: misc_spritesTrans_41
+    21300084: misc_spritesTrans_42
+    21300086: misc_spritesTrans_43
+    21300088: misc_spritesTrans_44
+    21300090: misc_spritesTrans_45
+    21300092: misc_spritesTrans_46
+    21300094: misc_spritesTrans_47
+    21300096: misc_spritesTrans_48
+    21300098: misc_spritesTrans_49
+    21300100: misc_spritesTrans_50
+    21300102: misc_spritesTrans_51
+    21300104: misc_spritesTrans_52
+    21300106: misc_spritesTrans_53
+    21300108: misc_spritesTrans_54
+    21300110: misc_spritesTrans_55
+    21300112: misc_spritesTrans_56
+    21300114: misc_spritesTrans_57
+    21300116: misc_spritesTrans_58
+    21300118: misc_spritesTrans_59
+    21300120: misc_spritesTrans_60
+    21300122: misc_spritesTrans_61
+    21300124: misc_spritesTrans_62
+    21300126: misc_spritesTrans_63
+    21300128: misc_spritesTrans_64
+    21300130: misc_spritesTrans_65
+    21300132: misc_spritesTrans_66
+    21300134: misc_spritesTrans_67
+    21300136: misc_spritesTrans_68
+    21300138: misc_spritesTrans_69
+    21300140: misc_spritesTrans_70
+    21300142: misc_spritesTrans_71
+    21300144: misc_spritesTrans_72
+    21300146: misc_spritesTrans_73
+    21300148: misc_spritesTrans_74
+    21300150: misc_spritesTrans_75
+    21300152: misc_spritesTrans_76
+    21300154: misc_spritesTrans_77
+    21300156: misc_spritesTrans_78
+    21300158: misc_spritesTrans_79
+    21300160: misc_spritesTrans_80
+    21300162: misc_spritesTrans_81
+    21300164: misc_spritesTrans_82
+    21300166: misc_spritesTrans_83
+    21300168: misc_spritesTrans_84
+    21300170: misc_spritesTrans_85
+    21300172: misc_spritesTrans_86
+    21300174: misc_spritesTrans_87
+    21300176: misc_spritesTrans_88
+    21300178: misc_spritesTrans_89
+    21300180: misc_spritesTrans_90
+    21300182: misc_spritesTrans_91
+    21300184: misc_spritesTrans_92
+    21300186: misc_spritesTrans_93
+    21300188: misc_spritesTrans_94
+    21300190: misc_spritesTrans_95
+    21300192: misc_spritesTrans_96
+    21300194: misc_spritesTrans_97
+    21300196: misc_spritesTrans_98
+    21300198: misc_spritesTrans_99
+    21300200: misc_spritesTrans_100
+    21300202: misc_spritesTrans_101
+    21300204: misc_spritesTrans_102
+    21300206: misc_spritesTrans_103
+    21300208: misc_spritesTrans_104
+    21300210: misc_spritesTrans_105
+    21300212: misc_spritesTrans_106
+    21300214: misc_spritesTrans_107
+    21300216: misc_spritesTrans_108
+    21300218: misc_spritesTrans_109
+    21300220: misc_spritesTrans_110
+    21300222: misc_spritesTrans_111
+    21300224: misc_spritesTrans_112
+    21300226: misc_spritesTrans_113
+    21300228: misc_spritesTrans_114
+    21300230: misc_spritesTrans_115
+    21300232: misc_spritesTrans_116
+    21300234: misc_spritesTrans_117
+    21300236: misc_spritesTrans_118
+    21300238: misc_spritesTrans_119
+    21300240: misc_spritesTrans_120
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 14
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: misc_spritesTrans_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 357
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 357
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 388
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 392
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 388
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 388
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 357
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 357
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 355
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 355
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 358
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 357
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 300
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 300
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 301
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 301
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 318
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 318
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 318
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 318
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_21
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 318
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 318
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 318
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 296
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 296
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 296
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_27
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 296
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 296
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 296
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 297
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_31
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 275
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_32
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 297
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 296
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_34
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 296
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 296
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 251
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 251
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 249
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 249
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_40
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_41
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 275
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_43
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_44
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_45
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 275
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_46
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_47
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 275
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_48
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_49
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_50
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 252
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_53
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_54
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_56
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 252
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_58
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_59
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 197
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 197
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_62
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_63
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_64
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_65
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_66
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_67
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_69
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 229
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 197
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_73
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 197
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_74
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_76
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_77
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_78
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_79
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_81
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_82
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_84
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_85
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_86
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_87
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_88
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 140
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_89
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 140
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_90
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_91
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_92
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_93
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_94
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_95
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 171
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_96
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 171
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 140
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_98
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 140
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_99
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 130
+        width: 83
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_100
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 133
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_101
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 133
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_102
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 133
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_103
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 98
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_104
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_105
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_106
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 62
+        width: 188
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_107
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_108
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_109
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 62
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_110
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_111
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_112
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_113
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_114
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_115
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_116
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_117
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_118
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_119
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 5
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: misc_spritesTrans_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

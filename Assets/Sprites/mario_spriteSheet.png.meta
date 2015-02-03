@@ -1,0 +1,3941 @@
+fileFormatVersion: 2
+guid: a589aee19f9044e5da212175f72283ed
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mario_spriteSheet_0
+    21300002: mario_spriteSheet_1
+    21300004: mario_spriteSheet_2
+    21300006: mario_spriteSheet_3
+    21300008: mario_spriteSheet_4
+    21300010: mario_spriteSheet_5
+    21300012: mario_spriteSheet_6
+    21300014: mario_spriteSheet_7
+    21300016: mario_spriteSheet_8
+    21300018: mario_spriteSheet_9
+    21300020: mario_spriteSheet_10
+    21300022: mario_spriteSheet_11
+    21300024: mario_spriteSheet_12
+    21300026: mario_spriteSheet_13
+    21300028: mario_spriteSheet_14
+    21300030: mario_spriteSheet_15
+    21300032: mario_spriteSheet_16
+    21300034: mario_spriteSheet_17
+    21300036: mario_spriteSheet_18
+    21300038: mario_spriteSheet_19
+    21300040: mario_spriteSheet_20
+    21300042: mario_spriteSheet_21
+    21300044: mario_spriteSheet_22
+    21300046: mario_spriteSheet_23
+    21300048: mario_spriteSheet_24
+    21300050: mario_spriteSheet_25
+    21300052: mario_spriteSheet_26
+    21300054: mario_spriteSheet_27
+    21300056: mario_spriteSheet_28
+    21300058: mario_spriteSheet_29
+    21300060: mario_spriteSheet_30
+    21300062: mario_spriteSheet_31
+    21300064: mario_spriteSheet_32
+    21300066: mario_spriteSheet_33
+    21300068: mario_spriteSheet_34
+    21300070: mario_spriteSheet_35
+    21300072: mario_spriteSheet_36
+    21300074: mario_spriteSheet_37
+    21300076: mario_spriteSheet_38
+    21300078: mario_spriteSheet_39
+    21300080: mario_spriteSheet_40
+    21300082: mario_spriteSheet_41
+    21300084: mario_spriteSheet_42
+    21300086: mario_spriteSheet_43
+    21300088: mario_spriteSheet_44
+    21300090: mario_spriteSheet_45
+    21300092: mario_spriteSheet_46
+    21300094: mario_spriteSheet_47
+    21300096: mario_spriteSheet_48
+    21300098: mario_spriteSheet_49
+    21300100: mario_spriteSheet_50
+    21300102: mario_spriteSheet_51
+    21300104: mario_spriteSheet_52
+    21300106: mario_spriteSheet_53
+    21300108: mario_spriteSheet_54
+    21300110: mario_spriteSheet_55
+    21300112: mario_spriteSheet_56
+    21300114: mario_spriteSheet_57
+    21300116: mario_spriteSheet_58
+    21300118: mario_spriteSheet_59
+    21300120: mario_spriteSheet_60
+    21300122: mario_spriteSheet_61
+    21300124: mario_spriteSheet_62
+    21300126: mario_spriteSheet_63
+    21300128: mario_spriteSheet_64
+    21300130: mario_spriteSheet_65
+    21300132: mario_spriteSheet_66
+    21300134: mario_spriteSheet_67
+    21300136: mario_spriteSheet_68
+    21300138: mario_spriteSheet_69
+    21300140: mario_spriteSheet_70
+    21300142: mario_spriteSheet_71
+    21300144: mario_spriteSheet_72
+    21300146: mario_spriteSheet_73
+    21300148: mario_spriteSheet_74
+    21300150: mario_spriteSheet_75
+    21300152: mario_spriteSheet_76
+    21300154: mario_spriteSheet_77
+    21300156: mario_spriteSheet_78
+    21300158: mario_spriteSheet_79
+    21300160: mario_spriteSheet_80
+    21300162: mario_spriteSheet_81
+    21300164: mario_spriteSheet_82
+    21300166: mario_spriteSheet_83
+    21300168: mario_spriteSheet_84
+    21300170: mario_spriteSheet_85
+    21300172: mario_spriteSheet_86
+    21300174: mario_spriteSheet_87
+    21300176: mario_spriteSheet_88
+    21300178: mario_spriteSheet_89
+    21300180: mario_spriteSheet_90
+    21300182: mario_spriteSheet_91
+    21300184: mario_spriteSheet_92
+    21300186: mario_spriteSheet_93
+    21300188: mario_spriteSheet_94
+    21300190: mario_spriteSheet_95
+    21300192: mario_spriteSheet_96
+    21300194: mario_spriteSheet_97
+    21300196: mario_spriteSheet_98
+    21300198: mario_spriteSheet_99
+    21300200: mario_spriteSheet_100
+    21300202: mario_spriteSheet_101
+    21300204: mario_spriteSheet_102
+    21300206: mario_spriteSheet_103
+    21300208: mario_spriteSheet_104
+    21300210: mario_spriteSheet_105
+    21300212: mario_spriteSheet_106
+    21300214: mario_spriteSheet_107
+    21300216: mario_spriteSheet_108
+    21300218: mario_spriteSheet_109
+    21300220: mario_spriteSheet_110
+    21300222: mario_spriteSheet_111
+    21300224: mario_spriteSheet_112
+    21300226: mario_spriteSheet_113
+    21300228: mario_spriteSheet_114
+    21300230: mario_spriteSheet_115
+    21300232: mario_spriteSheet_116
+    21300234: mario_spriteSheet_117
+    21300236: mario_spriteSheet_118
+    21300238: mario_spriteSheet_119
+    21300240: mario_spriteSheet_120
+    21300242: mario_spriteSheet_121
+    21300244: mario_spriteSheet_122
+    21300246: mario_spriteSheet_123
+    21300248: mario_spriteSheet_124
+    21300250: mario_spriteSheet_125
+    21300252: mario_spriteSheet_126
+    21300254: mario_spriteSheet_127
+    21300256: mario_spriteSheet_128
+    21300258: mario_spriteSheet_129
+    21300260: mario_spriteSheet_130
+    21300262: mario_spriteSheet_131
+    21300264: mario_spriteSheet_132
+    21300266: mario_spriteSheet_133
+    21300268: mario_spriteSheet_134
+    21300270: mario_spriteSheet_135
+    21300272: mario_spriteSheet_136
+    21300274: mario_spriteSheet_137
+    21300276: mario_spriteSheet_138
+    21300278: mario_spriteSheet_139
+    21300280: mario_spriteSheet_140
+    21300282: mario_spriteSheet_141
+    21300284: mario_spriteSheet_142
+    21300286: mario_spriteSheet_143
+    21300288: mario_spriteSheet_144
+    21300290: mario_spriteSheet_145
+    21300292: mario_spriteSheet_146
+    21300294: mario_spriteSheet_147
+    21300296: mario_spriteSheet_148
+    21300298: mario_spriteSheet_149
+    21300300: mario_spriteSheet_150
+    21300302: mario_spriteSheet_151
+    21300304: mario_spriteSheet_152
+    21300306: mario_spriteSheet_153
+    21300308: mario_spriteSheet_154
+    21300310: mario_spriteSheet_155
+    21300312: mario_spriteSheet_156
+    21300314: mario_spriteSheet_157
+    21300316: mario_spriteSheet_158
+    21300318: mario_spriteSheet_159
+    21300320: mario_spriteSheet_160
+    21300322: mario_spriteSheet_161
+    21300324: mario_spriteSheet_162
+    21300326: mario_spriteSheet_163
+    21300328: mario_spriteSheet_164
+    21300330: mario_spriteSheet_165
+    21300332: mario_spriteSheet_166
+    21300334: mario_spriteSheet_167
+    21300336: mario_spriteSheet_168
+    21300338: mario_spriteSheet_169
+    21300340: mario_spriteSheet_170
+    21300342: mario_spriteSheet_171
+    21300344: mario_spriteSheet_172
+    21300346: mario_spriteSheet_173
+    21300348: mario_spriteSheet_174
+    21300350: mario_spriteSheet_175
+    21300352: mario_spriteSheet_176
+    21300354: mario_spriteSheet_177
+    21300356: mario_spriteSheet_178
+    21300358: mario_spriteSheet_179
+    21300360: mario_spriteSheet_180
+    21300362: mario_spriteSheet_181
+    21300364: mario_spriteSheet_182
+    21300366: mario_spriteSheet_183
+    21300368: mario_spriteSheet_184
+    21300370: mario_spriteSheet_185
+    21300372: mario_spriteSheet_186
+    21300374: mario_spriteSheet_187
+    21300376: mario_spriteSheet_188
+    21300378: mario_spriteSheet_189
+    21300380: mario_spriteSheet_190
+    21300382: mario_spriteSheet_191
+    21300384: mario_spriteSheet_192
+    21300386: mario_spriteSheet_193
+    21300388: mario_spriteSheet_194
+    21300390: mario_spriteSheet_195
+    21300392: mario_spriteSheet_196
+    21300394: mario_spriteSheet_197
+    21300396: mario_spriteSheet_198
+    21300398: mario_spriteSheet_199
+    21300400: mario_spriteSheet_200
+    21300402: mario_spriteSheet_201
+    21300404: mario_spriteSheet_202
+    21300406: mario_spriteSheet_203
+    21300408: mario_spriteSheet_204
+    21300410: mario_spriteSheet_205
+    21300412: mario_spriteSheet_206
+    21300414: mario_spriteSheet_207
+    21300416: mario_spriteSheet_208
+    21300418: mario_spriteSheet_209
+    21300420: mario_spriteSheet_210
+    21300422: mario_spriteSheet_211
+    21300424: mario_spriteSheet_212
+    21300426: mario_spriteSheet_213
+    21300428: mario_spriteSheet_214
+    21300430: mario_spriteSheet_215
+    21300432: mario_spriteSheet_216
+    21300434: mario_spriteSheet_217
+    21300436: mario_spriteSheet_218
+    21300438: mario_spriteSheet_219
+    21300440: mario_spriteSheet_220
+    21300442: mario_spriteSheet_221
+    21300444: mario_spriteSheet_222
+    21300446: mario_spriteSheet_223
+    21300448: mario_spriteSheet_224
+    21300450: mario_spriteSheet_225
+    21300452: mario_spriteSheet_226
+    21300454: mario_spriteSheet_227
+    21300456: mario_spriteSheet_228
+    21300458: mario_spriteSheet_229
+    21300460: mario_spriteSheet_230
+    21300462: mario_spriteSheet_231
+    21300464: mario_spriteSheet_232
+    21300466: mario_spriteSheet_233
+    21300468: mario_spriteSheet_234
+    21300470: mario_spriteSheet_235
+    21300472: mario_spriteSheet_236
+    21300474: mario_spriteSheet_237
+    21300476: mario_spriteSheet_238
+    21300478: mario_spriteSheet_239
+    21300480: mario_spriteSheet_240
+    21300482: mario_spriteSheet_241
+    21300484: mario_spriteSheet_242
+    21300486: mario_spriteSheet_243
+    21300488: mario_spriteSheet_244
+    21300490: mario_spriteSheet_245
+    21300492: mario_spriteSheet_246
+    21300494: mario_spriteSheet_247
+    21300496: mario_spriteSheet_248
+    21300498: mario_spriteSheet_249
+    21300500: mario_spriteSheet_250
+    21300502: mario_spriteSheet_251
+    21300504: mario_spriteSheet_252
+    21300506: mario_spriteSheet_253
+    21300508: mario_spriteSheet_254
+    21300510: mario_spriteSheet_255
+    21300512: mario_spriteSheet_256
+    21300514: mario_spriteSheet_257
+    21300516: mario_spriteSheet_258
+    21300518: mario_spriteSheet_259
+    21300520: mario_spriteSheet_260
+    21300522: mario_spriteSheet_261
+    21300524: mario_spriteSheet_262
+    21300526: mario_spriteSheet_263
+    21300528: mario_spriteSheet_264
+    21300530: mario_spriteSheet_265
+    21300532: mario_spriteSheet_266
+    21300534: mario_spriteSheet_267
+    21300536: mario_spriteSheet_268
+    21300538: mario_spriteSheet_269
+    21300540: mario_spriteSheet_270
+    21300542: mario_spriteSheet_271
+    21300544: mario_spriteSheet_272
+    21300546: mario_spriteSheet_273
+    21300548: mario_spriteSheet_274
+    21300550: mario_spriteSheet_275
+    21300552: mario_spriteSheet_276
+    21300554: mario_spriteSheet_277
+    21300556: mario_spriteSheet_278
+    21300558: mario_spriteSheet_279
+    21300560: mario_spriteSheet_280
+    21300562: mario_spriteSheet_281
+    21300564: mario_spriteSheet_282
+    21300566: mario_spriteSheet_283
+    21300568: mario_spriteSheet_284
+    21300570: mario_spriteSheet_285
+    21300572: mario_spriteSheet_286
+    21300574: mario_spriteSheet_287
+    21300576: mario_spriteSheet_288
+    21300578: mario_spriteSheet_289
+    21300580: mario_spriteSheet_290
+    21300582: mario_spriteSheet_291
+    21300584: mario_spriteSheet_292
+    21300586: mario_spriteSheet_293
+    21300588: mario_spriteSheet_294
+    21300590: mario_spriteSheet_295
+    21300592: mario_spriteSheet_296
+    21300594: mario_spriteSheet_297
+    21300596: mario_spriteSheet_298
+    21300598: mario_spriteSheet_299
+    21300600: mario_spriteSheet_300
+    21300602: mario_spriteSheet_301
+    21300604: mario_spriteSheet_302
+    21300606: mario_spriteSheet_303
+    21300608: mario_spriteSheet_304
+    21300610: mario_spriteSheet_305
+    21300612: mario_spriteSheet_306
+    21300614: mario_spriteSheet_307
+    21300616: mario_spriteSheet_308
+    21300618: mario_spriteSheet_309
+    21300620: mario_spriteSheet_310
+    21300622: mario_spriteSheet_311
+    21300624: mario_spriteSheet_312
+    21300626: mario_spriteSheet_313
+    21300628: mario_spriteSheet_314
+    21300630: mario_spriteSheet_315
+    21300632: mario_spriteSheet_316
+    21300634: mario_spriteSheet_317
+    21300636: mario_spriteSheet_318
+    21300638: mario_spriteSheet_319
+    21300640: mario_spriteSheet_320
+    21300642: mario_spriteSheet_321
+    21300644: mario_spriteSheet_322
+    21300646: mario_spriteSheet_323
+    21300648: mario_spriteSheet_324
+    21300650: mario_spriteSheet_325
+    21300652: mario_spriteSheet_326
+    21300654: mario_spriteSheet_327
+    21300656: mario_spriteSheet_328
+    21300658: mario_spriteSheet_329
+    21300660: mario_spriteSheet_330
+    21300662: mario_spriteSheet_331
+    21300664: mario_spriteSheet_332
+    21300666: mario_spriteSheet_333
+    21300668: mario_spriteSheet_334
+    21300670: mario_spriteSheet_335
+    21300672: mario_spriteSheet_336
+    21300674: mario_spriteSheet_337
+    21300676: mario_spriteSheet_338
+    21300678: mario_spriteSheet_339
+    21300680: mario_spriteSheet_340
+    21300682: mario_spriteSheet_341
+    21300684: mario_spriteSheet_342
+    21300686: mario_spriteSheet_343
+    21300688: mario_spriteSheet_344
+    21300690: mario_spriteSheet_345
+    21300692: mario_spriteSheet_346
+    21300694: mario_spriteSheet_347
+    21300696: mario_spriteSheet_348
+    21300698: mario_spriteSheet_349
+    21300700: mario_spriteSheet_350
+    21300702: mario_spriteSheet_351
+    21300704: mario_spriteSheet_352
+    21300706: mario_spriteSheet_353
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mario_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1481
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1478
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1477
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1477
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1484
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1483
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1484
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1484
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1439
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1437
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1437
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1461
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1461
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1461
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1461
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1440
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1434
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1431
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1434
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1434
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1400
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1400
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1402
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1402
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1400
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1400
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1361
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1362
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1361
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1361
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1361
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1361
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1361
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1361
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1362
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1361
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1321
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1321
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1321
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1321
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1281
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1281
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1281
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1281
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1281
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1281
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1281
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1281
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1281
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1281
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1240
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1235
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1235
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1235
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1235
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1235
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1235
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1235
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1235
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1240
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1196
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1197
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1196
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1196
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1194
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1194
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1196
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1196
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1197
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1196
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1156
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1156
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1156
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1156
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1156
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1156
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1156
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1156
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1156
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1156
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1156
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1156
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1116
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1116
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1116
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1116
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1116
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1116
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1079
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1079
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1079
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1079
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1079
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1079
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1079
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1079
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1040
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1035
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1035
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1035
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1035
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1035
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1035
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1035
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1035
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1035
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1035
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1040
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 994
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 994
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 994
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 996
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 994
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 994
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 994
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 994
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 996
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 994
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 994
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 994
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 956
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 954
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 954
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 956
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 954
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 954
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 954
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 954
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 956
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 954
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 954
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 956
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 915
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 915
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 915
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 915
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 876
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 876
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 875
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 875
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 876
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 876
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 875
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 875
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 876
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 876
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 838
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 838
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 838
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 838
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 838
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 838
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 838
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 838
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 800
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 795
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 795
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 795
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 795
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 795
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 795
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 795
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 795
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 800
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 756
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 757
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 756
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 756
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 754
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 754
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 756
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 756
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 757
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 756
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 716
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 716
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 716
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 716
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 716
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 716
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 716
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 716
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 716
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 716
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 716
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 716
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 676
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 676
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 676
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 676
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 676
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 676
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 676
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 676
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 676
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 676
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 639
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 639
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 639
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 639
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 639
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 639
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 639
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 639
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 600
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 595
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 595
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 595
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 595
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 595
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 595
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 595
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 595
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 600
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 554
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 554
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 556
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 554
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 554
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 554
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 554
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 556
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 554
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 554
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 554
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 514
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 514
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 516
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_236
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_237
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_238
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 516
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_239
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 514
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_240
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 514
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_241
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 514
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_242
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_243
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 475
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_244
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 476
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_245
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 476
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_246
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 475
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_247
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 475
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_248
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 436
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_249
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 436
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_250
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 435
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 435
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_252
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 436
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_253
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 436
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_254
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 435
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_255
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 435
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_256
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 436
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_257
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 436
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_258
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 398
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_259
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 398
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_260
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 398
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_261
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 398
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_262
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 398
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_263
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 398
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_264
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 398
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_265
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 398
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_266
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 355
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_267
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 355
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_268
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 357
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_269
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 357
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_270
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 355
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_271
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 355
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_272
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 314
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_273
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 316
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_274
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 314
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_275
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 314
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_276
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 316
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_277
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 314
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_278
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 274
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_279
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 274
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_280
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 274
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_281
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 274
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_282
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 274
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_283
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 274
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_284
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 238
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_285
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 238
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_286
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 238
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_287
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 238
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_288
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 238
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_289
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 238
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_290
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 238
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_291
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 238
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_292
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 238
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_293
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 238
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_294
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_295
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 196
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_296
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 196
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_297
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_298
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 196
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_299
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_300
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_301
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 196
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_302
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_303
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 196
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_304
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 196
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_305
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 196
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_306
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_307
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 155
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_308
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 155
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_309
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 155
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_310
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 155
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_311
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 155
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_312
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 155
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_313
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 155
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_314
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 155
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_315
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_316
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 116
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_317
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 116
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_318
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 114
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_319
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 114
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_320
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 114
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_321
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 114
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_322
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 116
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_323
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 116
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_324
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_325
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 74
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_326
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_327
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 76
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_328
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 74
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_329
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 74
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_330
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 74
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_331
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 74
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_332
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 76
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_333
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 74
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_334
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 74
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_335
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 76
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_336
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 35
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_337
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 35
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_338
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 36
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_339
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_340
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 35
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_341
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 35
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_342
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 35
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_343
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 36
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_344
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 35
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_345
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 35
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_346
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_347
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_348
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_349
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_350
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_351
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_352
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_spriteSheet_353
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
