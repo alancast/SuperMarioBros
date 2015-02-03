@@ -114,6 +114,9 @@ public class koopaScript : goombaScript {
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
 			if (other.tag != "Player" && this_Goomba.vel0.y > -.1 && other.tag != "Goomba"
 				 && other.tag != "Platform" && other.tag != "Item"){
+
+				if(this.tag == "Shell" && other.tag == "GoombaCollider") return;
+
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
 		}
