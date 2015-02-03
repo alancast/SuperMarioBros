@@ -51,6 +51,9 @@ public class mushroomCollision : MonoBehaviour {
 				CameraMGR.lives++;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString(); 
 			}
+			Vector3 currentPos = other.transform.position;
+			currentPos.y += .5f;
+			other.transform.position = currentPos;
 			int[] states = {(int)(mario_Control.state + 1), 2};
 			int newState = Mathf.Min (states);
 			mario_Control.state = (MarioState)newState;
