@@ -13,7 +13,12 @@ public class killCharacter : MonoBehaviour {
 			if (fullKill){
 				CameraMGR.lives -= 1;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
-				Application.LoadLevel("_Scene_Alex_7");
+				if (CameraMGR.lives <= 0){
+					Application.LoadLevel("_Scene_End_Game");
+				}
+				else {
+					Application.LoadLevel("_Scene_Alex_7");
+				}
 			}
 			//hit an enemy
 			else{
@@ -28,7 +33,12 @@ public class killCharacter : MonoBehaviour {
 					if (Time.time < invicible) return;
 					CameraMGR.lives -= 1;
 					CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
-					Application.LoadLevel("_Scene_Alex_7");
+					if (CameraMGR.lives <= 0){
+						Application.LoadLevel("_Scene_End_Game");
+					}
+					else {
+						Application.LoadLevel("_Scene_Alex_7");
+					}
 				}
 				//from fly to big
 				else{
