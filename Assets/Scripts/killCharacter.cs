@@ -24,7 +24,12 @@ public class killCharacter : MonoBehaviour {
 					Application.LoadLevel("_Scene_End_Game");
 				}
 				else {
-					Application.LoadLevel("_Scene_Alex_7");
+					if (PE_Controller.instance.isAlpha){
+						Application.LoadLevel("_Scene_Alpha_1");
+					}
+					else{
+						Application.LoadLevel("_Scene_Alex_7");
+					}
 				}
 			}
 			//hit an enemy
@@ -44,7 +49,12 @@ public class killCharacter : MonoBehaviour {
 						Application.LoadLevel("_Scene_End_Game");
 					}
 					else {
-						Application.LoadLevel("_Scene_Alex_7");
+						if (PE_Controller.instance.isAlpha){
+							Application.LoadLevel("_Scene_Alpha_1");
+						}
+						else{
+							Application.LoadLevel("_Scene_Alex_7");
+						}
 					}
 				}
 				//from fly to big

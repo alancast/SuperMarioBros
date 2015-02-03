@@ -22,6 +22,10 @@ public class PE_Controller : MonoBehaviour {
 	//slowing down to normal run speed
 	public bool 	slowingDown = false;
 	public bool		isFlying = false;
+	//bool for allowing a jump when just killed enemy
+	public bool		justKilled = false;
+	//set when on alpha leval
+	public bool 	isAlpha = false;
 	
 	public float	acceleration = 10;
 	public float 	accel_speed = 10;
@@ -47,7 +51,13 @@ public class PE_Controller : MonoBehaviour {
 	//time since last button press
 	private float 	lastFlightPress;
 	//length of time between button presses til velocity drops
-	public float	flightButtonThreshold = .3f;
+	public float	flightButtonThreshold = .15f;
+	//down velocity when using the tail while jumping
+	public float 	downJumpVelocity = -2f;
+	//length of time between button presses til velocity drops
+	public float 	downJumpButtonThreshold = .2f;
+	//time since last button press
+	private float 	lastJumpPress;
 	
 	//to make sure he doesn't hit two blocks at the same time
 	public float 	cantHitTil;
@@ -71,6 +81,12 @@ public class PE_Controller : MonoBehaviour {
 			else{
 				CameraMGR.instance.BeastModeText.text = "Beast Mode Off";
 			}
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha1)){
+			Application.LoadLevel("_Scene_Alex_7");
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha2)){
+			Application.LoadLevel("_Scene_Alpha_1");
 		}
 		
 		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -145,6 +161,15 @@ public class PE_Controller : MonoBehaviour {
 				isJumping = true;
 				stopHeight = peo.transform.position.y + maxJumpHeight;
 			}
+			if (state == MarioState.Fly && !isJumping && !justKilled){
+				lastJumpPress = Time.time;
+			}
+			if (justKilled){
+				vel.y = jumpVel;
+				// Jumping will set ground = null
+				isJumping = true;
+				justKilled = false;
+			}
 		}
 		//to continue Jumping
 		if (isJumping){
@@ -158,6 +183,17 @@ public class PE_Controller : MonoBehaviour {
 			}
 			else{
 				isJumping = false;
+			}
+		}
+		if (!isJumping && peo.ground == null){
+			if (Time.time - lastJumpPress < downJumpButtonThreshold){
+				vel.y = downJumpVelocity;
+				if (vel.x > maxFlightSpeed.x){
+					vel.x = maxFlightSpeed.x;
+				}
+				if (vel.x < -maxFlightSpeed.x){
+					vel.x = -maxFlightSpeed.x;
+				}
 			}
 		}
 		peo.vel = vel;
