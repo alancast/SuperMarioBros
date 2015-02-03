@@ -101,6 +101,10 @@ public class PE_Obj : MonoBehaviour {
 		if (other.tag == "Goomba") return;
 		if ((other.tag == "GoombaCollider" && tag != "Goomba") ||
 		    (tag == "GoombaCollider" && other.tag != "Goomba")) return;
+		if ((other.tag == "HitBlock" && tag == "Goomba") ||
+		    (tag == "HitBlock" && other.tag == "Goomba")) return;
+		if ((other.tag == "Goomba" && tag == "Goomba") ||
+		    (tag == "Goomba" && other.tag == "Goomba")) return;
 		if (tag == "Goomba" && other.tag == "Player") return;
 		if ((tag == "Shell" && other.tag == "Goomba") ||
 			(other.tag == "Shell" && tag == "Goomba")) return;

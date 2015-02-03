@@ -4,12 +4,13 @@ using System.Collections;
 public enum KoopaState{
 	MovingShell,
 	StillShell,
-	Koopa
+	Koopa,
+	Winged
 }
 
 public class koopaScript : goombaScript {
 
-	public KoopaState	state = KoopaState.Koopa;
+	public KoopaState	state = KoopaState.Winged;
 	//public float 		shellVel = 18f;
 	Animator koopaAnim;
 	bool isShell = false;
@@ -19,6 +20,9 @@ public class koopaScript : goombaScript {
 	Vector3 startKillZonePos = Vector3.zero;
 	Vector3 shellKillZoneSize = new Vector3(.66f, .3f, 1f);
 	public float shellSpeed = 15f;
+	bool isWinged = false;
+	public float koopaJumpVel = 14f;
+	public Vector3 dest = new Vector3(85f, 3.4f, 0f);
 
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
@@ -27,11 +31,29 @@ public class koopaScript : goombaScript {
 		koopaAnim = GetComponent<Animator> ();
 		koopaCollider = GetComponent<BoxCollider> ();
 		startKillZonePos = transform.GetChild (0).position;
-		//killZone = GetComponentInChildren<GameObject> ();
+		koopaAnim.SetInteger("state", (int) this.state );
+	}
+
+	void Update()
+	{
+		if (this.state == KoopaState.Winged) {
+			if (this_Goomba.ground) {
+					this_Goomba.vel.y = koopaJumpVel;
+			}
+		}
+
+		if (Mathf.Abs (this_Goomba.vel.x) < .1 && this.tag == "Goomba") {
+			this_Goomba.vel.x = -1*x_vel;
+		}
 	}
 
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other) {
+
+		if (other.tag == "Shell") {
+			PhysicsEngine.objs.Remove (this_Goomba);
+			Destroy(this.gameObject);
+		}
 
 		if (other.tag == "Player" && this.state == KoopaState.StillShell) {
 
@@ -54,7 +76,14 @@ public class koopaScript : goombaScript {
 			PE_Controller.instance.isJumping = true;
 			PE_Controller.instance.stopHeight = marioPhys.transform.position.y + PE_Controller.instance.maxJumpHeight;
 
-			if (this.state == KoopaState.Koopa){
+
+			if (this.state == KoopaState.Winged){
+				this.state = KoopaState.Koopa;
+				isWinged = false;
+
+				koopaAnim.SetInteger("state", (int) this.state );
+			}
+			else if (this.state == KoopaState.Koopa){
 				this.state = KoopaState.StillShell;
 				this_Goomba.vel = Vector3.zero;
 
@@ -82,9 +111,10 @@ public class koopaScript : goombaScript {
 		}
 
 
-		else if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player" && this_Goomba.vel0.y == 0 && other.tag != "Goomba"){
-				this_Goomba.vel = -this_Goomba.vel0;
+		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
+			if (other.tag != "Player" && this_Goomba.vel0.y > -.1 && other.tag != "Goomba" && other.tag != "Platform" && other.tag != "Item"){
+
+				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
 		}
 		

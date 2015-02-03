@@ -7,6 +7,13 @@ public class killCharacter : MonoBehaviour {
 	public float	invicible;
 
 	void OnTriggerEnter(Collider other){
+		if (other.tag == "Goomba") {
+			koopaScript otherEnemy = other.GetComponent<koopaScript> ();
+			if(otherEnemy.state == KoopaState.Winged){
+				other.transform.position = otherEnemy.dest;
+			}
+		}
+
 		if (PE_Controller.BeastMode && !fullKill) return;
 		if (other.tag == "Player"){
 			//fell off map
