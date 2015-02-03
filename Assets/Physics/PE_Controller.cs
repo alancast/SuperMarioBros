@@ -10,7 +10,7 @@ public enum MarioState{
 public class PE_Controller : MonoBehaviour {
 	public static PE_Controller instance;
 	public static bool BeastMode = false;
-	private PE_Obj peo;
+	public PE_Obj peo;
 	public MarioState	state = MarioState.Small;
 	
 	public Vector3	vel;
@@ -42,7 +42,7 @@ public class PE_Controller : MonoBehaviour {
 	public float 	maxSprintX = 16;
 	public Vector2	maxFlightSpeed = new Vector2( 6.5f, 15 );
 	public float 	flightThreshold = 15;
-	public float 	flightVelocity = 12;
+	public float 	flightVelocity = 8;
 	private float 	endFlight;
 	//time since last button press
 	private float 	lastFlightPress;

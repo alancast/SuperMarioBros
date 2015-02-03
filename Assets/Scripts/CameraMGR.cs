@@ -53,7 +53,12 @@ public class CameraMGR : MonoBehaviour {
 		timeInt = 300 - (int)Time.timeSinceLevelLoad;
 		timeText.text = timeInt.ToString();
 		if (timeInt <= 0){
-			print ("you died");
+			lives -= 1;
+			livesText.text = lives.ToString();
+			if (lives <= 0){
+				Application.LoadLevel("_Scene_End_Game");
+			}
+			Application.LoadLevel("_Scene_Alex_7");
 		}
 	}
 
