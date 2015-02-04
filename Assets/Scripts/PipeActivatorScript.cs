@@ -5,7 +5,7 @@ public class PipeActivatorScript : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other){
 		if (other.tag != "Player") return;
-		if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)){
+		if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)){
 			Vector3 destination = Vector3.zero;
 			destination.y = 6f;
 			destination.x = 208.5f;
