@@ -107,6 +107,7 @@ public class PE_Controller : MonoBehaviour {
 		else{
 			handleFlying();
 		}
+		handleAttack();
 		change_velocity();
 		
 	}
@@ -263,6 +264,13 @@ public class PE_Controller : MonoBehaviour {
 			isFlying = false;
 		}
 		peo.vel = vel;
+	}
+	
+	void handleAttack(){
+		if (state != MarioState.Fly) return;
+		if (!(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Comma))) return;
+		Animator anim = GetComponent<Animator>();
+		anim.SetTrigger("fly_hit");
 	}
 	
 }
