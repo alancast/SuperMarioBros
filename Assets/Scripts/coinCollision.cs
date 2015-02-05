@@ -6,10 +6,6 @@ public class coinCollision : MonoBehaviour {
 	public bool 		isTemporary = false;
 	float 				startTime;
 	float		coinLife = .4f;
-	//public AudioClip sound;
-	AudioSource source;
-	public float volume = 1f;
-	float deathTime = -1f;
 	
 	void Start(){
 		startTime = Time.time;
@@ -18,13 +14,8 @@ public class coinCollision : MonoBehaviour {
 		}
 	}
 
-	void Awake(){
-		source = GetComponent<AudioSource>();
-	}
-
 	void OnTriggerEnter(Collider other) {
 		if (other.tag != "Player") return;
-		source.Play ();
 
 		CashThisCoin ();
 	}
@@ -51,6 +42,7 @@ public class coinCollision : MonoBehaviour {
 			CameraMGR.score += 100;
 		} else {
 			CameraMGR.score += 50;
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.coin);
 		}
 		CameraMGR.instance.scoreText.text = CameraMGR.score.ToString();
 		CameraMGR.coinage += 1;

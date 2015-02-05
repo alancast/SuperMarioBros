@@ -76,12 +76,14 @@ public class goombaScript : MonoBehaviour {
 
 			if(this.goombaState == GoombaState.Goomba){
 				PhysicsEngine.objs.Remove (this_Goomba);
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 				Destroy(this.gameObject);
 			}
 			else if(this.goombaState == GoombaState.Winged){
 				this.goombaState = GoombaState.Goomba;
 
 				goombaAnim.SetInteger("state", (int) this.goombaState);
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 			}
 
 			return;
@@ -89,6 +91,9 @@ public class goombaScript : MonoBehaviour {
 
 		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
+			if (other.tag == "Tail"){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
+			}
 			Destroy(this.gameObject);
 		}
 		
