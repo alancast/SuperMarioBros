@@ -6,12 +6,16 @@ public class coinCollision : MonoBehaviour {
 	public bool 		isTemporary = false;
 	float 				startTime;
 	float		coinLife = .4f;
-
+	public AudioClip sound;
+	private AudioSource source;
+	public float volume = .75f;
+	
 	void Start(){
 		startTime = Time.time;
 		if(this.CompareTag("Item")){
 			isTemporary = true;
 		}
+		source = GetComponent<AudioSource>();
 	}
 
 	void OnTriggerEnter(Collider other) {
@@ -26,6 +30,8 @@ public class coinCollision : MonoBehaviour {
 	}
 
 	void CashThisCoin(){
+
+		source.PlayOneShot(sound,volume);
 		
 		PE_Obj thisCoin = this.GetComponent<PE_Obj> ();
 		
