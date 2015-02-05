@@ -59,6 +59,9 @@ public class koopaScript : goombaScript {
 
 		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
+			if (other.tag == "Shell"){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
+			}
 			Destroy(this.gameObject);
 		}
 
@@ -73,6 +76,7 @@ public class koopaScript : goombaScript {
 			this.state = KoopaState.MovingShell;
 
 			endInvince = Time.time + killBuffer;
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kickShell);
 		}
 
 		else if (other.tag == "Player" && this.GetComponent<koopaScript> ().onTop()){
@@ -90,8 +94,10 @@ public class koopaScript : goombaScript {
 				isWinged = false;
 
 				koopaAnim.SetInteger("state", (int) this.state );
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 			}
 			else if (this.state == KoopaState.Koopa){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 				this.state = KoopaState.StillShell;
 				this_Goomba.vel = Vector3.zero;
 
@@ -125,6 +131,10 @@ public class koopaScript : goombaScript {
 				&& other.tag != "Goomba" && other.tag != "Platform" && other.tag != "Item"){
 
 				if(this.tag == "Shell" && other.tag == "GoombaCollider") return;
+				
+				if(tag == "Shell" && other.tag == "brickBlock"){
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.brickBreak);
+				}
 
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}

@@ -82,6 +82,7 @@ public class PE_Controller : MonoBehaviour {
 	public AudioClip	shrink;
 	public AudioClip	kickShell;
 	public AudioClip	tailSlow;
+	public AudioClip	brickBreak;
 	
 		
 	void Awake(){
@@ -188,6 +189,7 @@ public class PE_Controller : MonoBehaviour {
 				peo.ground = null; 
 				isJumping = true;
 				stopHeight = peo.transform.position.y + maxJumpHeight;
+				source.PlayOneShot(jump);
 			}
 			if (state == MarioState.Fly && !isJumping && !justKilled){
 				lastJumpPress = Time.time;
