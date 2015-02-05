@@ -26,6 +26,8 @@ public class PE_Controller : MonoBehaviour {
 	public bool		justKilled = false;
 	//set when on alpha leval
 	public bool 	isAlpha = false;
+	//set when about to attack
+	public bool 	isAttackReady = false;
 	
 	public float	acceleration = 10;
 	public float 	accel_speed = 10;
@@ -61,9 +63,17 @@ public class PE_Controller : MonoBehaviour {
 	
 	//to make sure he doesn't hit two blocks at the same time
 	public float 	cantHitTil;
+	//how long the kill point for an attack stays there
+	public float 	attackUntil;
+	//reference to his tail for attacks
+	private Transform[] tail;
 		
 	void Awake(){
 		instance = this;
+		tail = GetComponentsInChildren<Transform>();
+		Vector3 temp = tail[1].localPosition;
+		temp.y = -60;
+		tail[1].localPosition = temp;
 	}
 	
 	void Start () {
@@ -267,10 +277,42 @@ public class PE_Controller : MonoBehaviour {
 	}
 	
 	void handleAttack(){
+		if (attackUntil < Time.time){
+			Vector3 temp = tail[1].localPosition;
+			temp.y = -60;
+			temp.x = 0;
+			tail[1].localPosition = temp;
+		}
 		if (state != MarioState.Fly) return;
-		if (!(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Comma))) return;
+		if (!(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Comma)) && !isAttackReady) return;
 		Animator anim = GetComponent<Animator>();
-		anim.SetTrigger("fly_hit");
+		//to eliminate also setting the trigger on the next update
+		if (!isAttackReady){
+			anim.SetTrigger("fly_hit");
+		}
+		//will attack next turn
+		if (!isAttackReady){
+			isAttackReady = true;
+			return;
+		}
+		isAttackReady = false;
+		//spawn the killpoint to the right
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("fly_hit")){
+			Vector3 temp = tail[1].localPosition;
+			temp.y = 0;
+			temp.x = .5f;
+			tail[1].localPosition = temp;
+			attackUntil = Time.time + .3f;
+		}
+		//spawn the killpoint to the left
+		else{
+//			anim.GetCurrentAnimatorStateInfo(0).IsName("fly_hit_left");
+			Vector3 temp = tail[1].localPosition;
+			temp.y = 0;
+			temp.x = -.5f;
+			tail[1].localPosition = temp;
+			attackUntil = Time.time + .3f;
+		}
 	}
 	
 }
