@@ -48,6 +48,7 @@ public class mushroomCollision : MonoBehaviour {
 				
 			PE_Controller mario_Control = other.GetComponent<PE_Controller> ();
 			if(mario_Control.state == MarioState.Fly){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.oneUp);
 				CameraMGR.lives++;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString(); 
 			}
@@ -61,6 +62,7 @@ public class mushroomCollision : MonoBehaviour {
 						//remove shroom
 			PE_Obj thisShroom = this.GetComponent<PE_Obj> ();
 			PhysicsEngine.objs.Remove (thisShroom);
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shroomGrow);
 			Destroy (this.gameObject);
 
 			Animator anim = other.GetComponent<Animator> ();
