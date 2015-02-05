@@ -23,6 +23,8 @@ public class koopaScript : goombaScript {
 	bool isWinged = false;
 	public float koopaJumpVel = 14f;
 	public Vector3 dest = new Vector3(85f, 3.4f, 0f);
+	float endInvince;
+	public float killBuffer = .3f;
 
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
@@ -50,6 +52,11 @@ public class koopaScript : goombaScript {
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other) {
 
+		if (Time.time > endInvince  && this.state != KoopaState.StillShell) {
+			killZone = transform.GetChild(0);
+			killZone.position = transform.position;
+		}
+
 		if (other.tag == "Shell") {
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
@@ -64,8 +71,8 @@ public class koopaScript : goombaScript {
 			}
 
 			this.state = KoopaState.MovingShell;
-			killZone = transform.GetChild(0);
-			killZone.position = transform.position;
+
+			endInvince = Time.time + killBuffer;
 		}
 
 		else if (other.tag == "Player" && this.GetComponent<koopaScript> ().onTop()){
