@@ -3,8 +3,6 @@ using System.Collections;
 
 public class killCharacter : MonoBehaviour {
 	public bool		fullKill = false;
-	//an invicibility for two seconds
-	public float	invicible;
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Goomba" && fullKill) {
@@ -39,14 +37,14 @@ public class killCharacter : MonoBehaviour {
 			else{
 				//from big to small
 				if (PE_Controller.instance.state == MarioState.Big){
-					if (Time.time < invicible) return;
+					if (Time.time < PE_Controller.invincible) return;
 					PE_Controller.instance.state = MarioState.Small;
-					invicible = Time.time + 2f;
+					PE_Controller.invincible = Time.time + 2f;
 					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 				//from small to dead
 				else if (PE_Controller.instance.state == MarioState.Small){
-					if (Time.time < invicible) return;
+					if (Time.time < PE_Controller.invincible) return;
 					CameraMGR.lives -= 1;
 					CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
 					if (CameraMGR.lives <= 0){
@@ -67,7 +65,7 @@ public class killCharacter : MonoBehaviour {
 				//from fly to big
 				else{
 					PE_Controller.instance.state = MarioState.Big;
-					invicible = Time.time + 2f;
+					PE_Controller.invincible = Time.time + 2f;
 					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 

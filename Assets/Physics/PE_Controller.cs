@@ -86,6 +86,8 @@ public class PE_Controller : MonoBehaviour {
 	public float 		lastTailSlow;
 	public float 		lastFlightSound;
 	
+	public static float invincible;
+	
 		
 	void Awake(){
 		instance = this;
