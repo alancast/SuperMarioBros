@@ -351,16 +351,24 @@ public class PE_Obj : MonoBehaviour {
 				posFinal.x -= offsetX;
 				
 				// Handle vel
-				vel.x = 0;				
+				vel.x = 0;	
+				if (tag == "Player"){
+					dir = PE_Dir.up;
+				}			
 			}
 			break;
 			
 		case PE_Dir.downRight:
 			if (pU.y < (b.y -.1f) || u == 0) { // hit the left side
-				posFinal.x -= offsetX;
+				if (offsetX < .7f){
+					posFinal.x -= offsetX;
+				}
 				
 				// Handle vel
 				vel.x = 0;
+				if (tag == "Player"){
+					dir = PE_Dir.down;
+				}
 				
 			} else { // hit the top
 				posFinal.y += offsetY;
@@ -385,17 +393,24 @@ public class PE_Obj : MonoBehaviour {
 				
 				// Handle vel
 				vel.x = 0;
+				if (tag == "Player"){
+					dir = PE_Dir.up;
+				}
 				
 			}
 			break;
 			
 		case PE_Dir.downLeft:
 			if (pU.y < (b.y -.1f) || u == 0) { // hit the right side
-				posFinal.x += offsetX;
+				if (offsetX < .7f){
+					posFinal.x += offsetX;
+				}
 				
 				// Handle vel
 				vel.x = 0;
-				
+				if (tag == "Player"){
+					dir = PE_Dir.down;
+				}
 			} else { // hit the top
 				posFinal.y += offsetY;
 				
