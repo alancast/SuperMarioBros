@@ -23,6 +23,8 @@ public class koopaScript : goombaScript {
 	bool isWinged = false;
 	public float koopaJumpVel = 14f;
 	public Vector3 dest = new Vector3(85f, 3.4f, 0f);
+	float endInvince;
+	public float killBuffer = .2f;
 
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
@@ -50,8 +52,16 @@ public class koopaScript : goombaScript {
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other) {
 
-		if (other.tag == "Shell") {
+		if (Time.time > endInvince  && this.state != KoopaState.StillShell) {
+			killZone = transform.GetChild(0);
+			killZone.position = transform.position;
+		}
+
+		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
+			if (other.tag == "Tail"){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
+			}
 			Destroy(this.gameObject);
 		}
 
@@ -64,8 +74,9 @@ public class koopaScript : goombaScript {
 			}
 
 			this.state = KoopaState.MovingShell;
-			killZone = transform.GetChild(0);
-			killZone.position = transform.position;
+
+			endInvince = Time.time + killBuffer;
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kickShell);
 		}
 
 		else if (other.tag == "Player" && this.GetComponent<koopaScript> ().onTop()){
@@ -74,6 +85,7 @@ public class koopaScript : goombaScript {
 			marioPhys.vel.y = marioKillVel;
 
 			PE_Controller.instance.isJumping = true;
+			PE_Controller.instance.justKilled = true;
 			PE_Controller.instance.stopHeight = marioPhys.transform.position.y + PE_Controller.instance.maxJumpHeight;
 
 
@@ -82,8 +94,10 @@ public class koopaScript : goombaScript {
 				isWinged = false;
 
 				koopaAnim.SetInteger("state", (int) this.state );
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 			}
 			else if (this.state == KoopaState.Koopa){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 				this.state = KoopaState.StillShell;
 				this_Goomba.vel = Vector3.zero;
 
@@ -112,10 +126,23 @@ public class koopaScript : goombaScript {
 
 
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player" && this_Goomba.vel0.y > -.1 && other.tag != "Goomba" && other.tag != "Platform" && other.tag != "Item"){
+			if (other.tag != "Player" 
+				&& (this_Goomba.vel0.y > -.1 || (tag == "Shell" && other.tag == "brickBlock")) 
+				&& other.tag != "Goomba" && other.tag != "Platform" && other.tag != "Item"){
+
+				if(this.tag == "Shell" && other.tag == "GoombaCollider") return;
+				
+				if(tag == "Shell" && other.tag == "brickBlock"){
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.brickBreak);
+				}
 
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
+
+		}
+
+		if(this.state == KoopaState.Winged && other.tag == "GoombaCollider"){
+			this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 		}
 		
 		

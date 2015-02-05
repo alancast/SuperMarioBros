@@ -5,8 +5,8 @@ public class coinCollision : MonoBehaviour {
 
 	public bool 		isTemporary = false;
 	float 				startTime;
-	float				coinLife = .4f;
-
+	float		coinLife = .4f;
+	
 	void Start(){
 		startTime = Time.time;
 		if(this.CompareTag("Item")){
@@ -15,6 +15,8 @@ public class coinCollision : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
+		if (other.tag != "Player") return;
+
 		CashThisCoin ();
 	}
 
@@ -23,6 +25,7 @@ public class coinCollision : MonoBehaviour {
 			CashThisCoin();
 		}
 	}
+	
 
 	void CashThisCoin(){
 		
@@ -39,10 +42,11 @@ public class coinCollision : MonoBehaviour {
 			CameraMGR.score += 100;
 		} else {
 			CameraMGR.score += 50;
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.coin);
 		}
 		CameraMGR.instance.scoreText.text = CameraMGR.score.ToString();
-		CameraMGR.instance.coinage += 1;
-		CameraMGR.instance.coinageText.text = CameraMGR.instance.coinage.ToString();
+		CameraMGR.coinage += 1;
+		CameraMGR.instance.coinageText.text = CameraMGR.coinage.ToString();
 
 	}
 

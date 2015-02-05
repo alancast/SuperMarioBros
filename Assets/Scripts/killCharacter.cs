@@ -7,9 +7,9 @@ public class killCharacter : MonoBehaviour {
 	public float	invicible;
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Goomba") {
+		if (other.tag == "Goomba" && fullKill) {
 			koopaScript otherEnemy = other.GetComponent<koopaScript> ();
-			if(otherEnemy.state == KoopaState.Winged){
+			if(otherEnemy && otherEnemy.state == KoopaState.Winged){
 				other.transform.position = otherEnemy.dest;
 			}
 		}
@@ -21,10 +21,18 @@ public class killCharacter : MonoBehaviour {
 				CameraMGR.lives -= 1;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
 				if (CameraMGR.lives <= 0){
+					CameraMGR.lives = 4;
+					CameraMGR.score = 0;
+					CameraMGR.coinage = 0;
 					Application.LoadLevel("_Scene_End_Game");
 				}
 				else {
-					Application.LoadLevel("_Scene_Alex_7");
+					if (PE_Controller.instance.isAlpha){
+						Application.LoadLevel("_Scene_Alpha_3");
+					}
+					else{
+						Application.LoadLevel("_Scene_Alex_7");
+					}
 				}
 			}
 			//hit an enemy
@@ -34,6 +42,7 @@ public class killCharacter : MonoBehaviour {
 					if (Time.time < invicible) return;
 					PE_Controller.instance.state = MarioState.Small;
 					invicible = Time.time + 2f;
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 				//from small to dead
 				else if (PE_Controller.instance.state == MarioState.Small){
@@ -41,16 +50,25 @@ public class killCharacter : MonoBehaviour {
 					CameraMGR.lives -= 1;
 					CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
 					if (CameraMGR.lives <= 0){
+						CameraMGR.lives = 4;
+						CameraMGR.score = 0;
+						CameraMGR.coinage = 0;
 						Application.LoadLevel("_Scene_End_Game");
 					}
 					else {
-						Application.LoadLevel("_Scene_Alex_7");
+						if (PE_Controller.instance.isAlpha){
+							Application.LoadLevel("_Scene_Alpha_3");
+						}
+						else{
+							Application.LoadLevel("_Scene_Alex_7");
+						}
 					}
 				}
 				//from fly to big
 				else{
 					PE_Controller.instance.state = MarioState.Big;
 					invicible = Time.time + 2f;
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 
 

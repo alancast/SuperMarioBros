@@ -10,7 +10,7 @@ public class CameraMGR : MonoBehaviour {
 	public Text		scoreText;
 	public static int 		score;
 	public Text 	coinageText;
-	public int 		coinage;
+	public static int 		coinage;
 	public Text 	timeText;
 	public int 		timeInt;
 	public Text 	BeastModeText;
@@ -56,9 +56,17 @@ public class CameraMGR : MonoBehaviour {
 			lives -= 1;
 			livesText.text = lives.ToString();
 			if (lives <= 0){
+				lives = 4;
+				score = 0;
+				coinage = 0;
 				Application.LoadLevel("_Scene_End_Game");
 			}
-			Application.LoadLevel("_Scene_Alex_7");
+			if (PE_Controller.instance.isAlpha){
+				Application.LoadLevel("_Scene_Alpha_3");
+			}
+			else{
+				Application.LoadLevel("_Scene_Alex_7");
+			}
 		}
 	}
 

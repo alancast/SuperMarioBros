@@ -17,7 +17,7 @@ public class mushroomCollision : MonoBehaviour {
 	void Start () {
 		startTime = Time.time;
 		mario = GameObject.FindGameObjectWithTag ("Player");
-		mario_Controller = mario.GetComponent<PE_Controller> ();
+		mario_Controller = PE_Controller.instance;
 		shroomAnim = GetComponent<Animator>();
 		this_mushroom = GetComponent<PE_Obj> ();
 
@@ -48,9 +48,13 @@ public class mushroomCollision : MonoBehaviour {
 				
 			PE_Controller mario_Control = other.GetComponent<PE_Controller> ();
 			if(mario_Control.state == MarioState.Fly){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.oneUp);
 				CameraMGR.lives++;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString(); 
 			}
+			Vector3 currentPos = other.transform.position;
+			currentPos.y += .5f;
+			other.transform.position = currentPos;
 			int[] states = {(int)(mario_Control.state + 1), 2};
 			int newState = Mathf.Min (states);
 			mario_Control.state = (MarioState)newState;
@@ -58,12 +62,13 @@ public class mushroomCollision : MonoBehaviour {
 						//remove shroom
 			PE_Obj thisShroom = this.GetComponent<PE_Obj> ();
 			PhysicsEngine.objs.Remove (thisShroom);
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shroomGrow);
 			Destroy (this.gameObject);
 
 			Animator anim = other.GetComponent<Animator> ();
 			anim.SetInteger ("state", (int)mario_Control.state);
 		} else if(this_mushroom.dir == PE_Dir.downLeft || this_mushroom.dir == PE_Dir.downRight){
-			if(this_mushroom.vel0.y == 0){
+			if(this_mushroom.vel0.y == 0 && other.tag != "Goomba" && other.tag != "HitBlock" && other.tag != "GoombaCollider"){
 				shroomVel *= -1;
 			}
 		}

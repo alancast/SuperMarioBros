@@ -8,12 +8,13 @@ public class hitBlockCollision : MonoBehaviour {
 	public float 		raycastDistance;
 	public GameObject 	hitItem;
 	public Vector3 		itemPos = Vector3.zero;
+	public float yOffset = 1f;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
 		itemPos = this.transform.position;
-		itemPos.y += 1f;
+		itemPos.y += yOffset;
 	}
 	
 	public void blockHit(){

@@ -5,12 +5,11 @@ public class PipeActivatorScript : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other){
 		if (other.tag != "Player") return;
-		if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)){
-			Vector3 destination = Vector3.zero;
-			destination.y = 6f;
-			destination.x = 208.5f;
-			PE_Controller.instance.peo.transform.position = destination;
-		}
+		PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.pipe);
+		Vector3 destination = Vector3.zero;
+		destination.y = 6f;
+		destination.x = 208.5f;
+		PE_Controller.instance.peo.transform.position = destination;
 	}
 	
 	void OnTriggerStay(Collider other){

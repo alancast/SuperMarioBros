@@ -6,6 +6,7 @@ public class UpPipeActivator : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag != "Player") return;
 		if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)){
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.pipe);
 			Vector3 destination = Vector3.zero;
 			destination.y = -.5f;
 			destination.x = 146f;

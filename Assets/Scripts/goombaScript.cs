@@ -10,7 +10,7 @@ public class goombaScript : MonoBehaviour {
 
 	public PE_Obj this_Goomba;
 	public float marioKillVel = 25f;
-	public float x_vel = 3f;
+	public float x_vel = -2f;
 	public GoombaState goombaState = GoombaState.Winged;
 	Animator goombaAnim;
 	float startTime;
@@ -21,7 +21,6 @@ public class goombaScript : MonoBehaviour {
 	public bool onTop(){
 		PE_Obj marioPhys = PE_Controller.instance.GetComponent<PE_Obj> ();
 
-		print (transform.position);
 		Vector3 origin = transform.position;
 		origin.x += collider.bounds.size.x/2;
 		if (marioPhys.vel.y <= 0) {
@@ -71,33 +70,45 @@ public class goombaScript : MonoBehaviour {
 			marioPhys.vel.y = marioKillVel;
 
 			PE_Controller.instance.isJumping = true;
+			PE_Controller.instance.justKilled = true;
 			PE_Controller.instance.stopHeight = marioPhys.transform.position.y + PE_Controller.instance.maxJumpHeight;
 
 
 			if(this.goombaState == GoombaState.Goomba){
 				PhysicsEngine.objs.Remove (this_Goomba);
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 				Destroy(this.gameObject);
 			}
 			else if(this.goombaState == GoombaState.Winged){
 				this.goombaState = GoombaState.Goomba;
 
 				goombaAnim.SetInteger("state", (int) this.goombaState);
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 			}
 
 			return;
 		}
 
-		if (other.tag == "Shell") {
+		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
+			if (other.tag == "Tail"){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
+			}
 			Destroy(this.gameObject);
 		}
 		
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player" && other.tag != "Item" && this_Goomba.vel0.y > -.1){
+			if (other.tag != "Player" && other.tag != "Item" && this_Goomba.vel0.y > -.1
+				&& other.tag != "Goomba"){
 				this_Goomba.vel.x = -1*this_Goomba.vel0.x;
 			}
+
 		}
 
-
+		if(this.goombaState == GoombaState.Winged && other.tag == "GoombaCollider"){
+			this_Goomba.vel.x = -1*this_Goomba.vel0.x;
+		}
+		
+		
 	}
 }
