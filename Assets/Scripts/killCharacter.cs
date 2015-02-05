@@ -7,7 +7,7 @@ public class killCharacter : MonoBehaviour {
 	public float	invicible;
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Goomba") {
+		if (other.tag == "Goomba" && fullKill) {
 			koopaScript otherEnemy = other.GetComponent<koopaScript> ();
 			if(otherEnemy && otherEnemy.state == KoopaState.Winged){
 				other.transform.position = otherEnemy.dest;
