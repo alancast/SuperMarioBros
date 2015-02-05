@@ -98,7 +98,7 @@ public class PE_Controller : MonoBehaviour {
 			Application.LoadLevel("_Scene_Alex_7");
 		}
 		if (Input.GetKeyDown(KeyCode.Alpha2)){
-			Application.LoadLevel("_Scene_Alpha_1");
+			Application.LoadLevel("_Scene_Alpha_2");
 		}
 		
 		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))

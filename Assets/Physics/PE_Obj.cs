@@ -99,6 +99,7 @@ public class PE_Obj : MonoBehaviour {
 		if (other.tag == "Item" && tag == "Player") return;
 		if (other.tag == "Coin") return;
 		if (other.tag == "Goomba") return;
+		if (tag == "Player" && other.tag == "GoombaCollider") return;
 		if ((other.tag == "GoombaCollider" && tag != "Goomba") ||
 		    (tag == "GoombaCollider" && other.tag != "Goomba")) return;
 		if ((other.tag == "HitBlock" && tag == "Goomba" && !PE_Controller.instance.isAlpha) ||

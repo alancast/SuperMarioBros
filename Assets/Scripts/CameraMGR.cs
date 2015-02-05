@@ -61,7 +61,12 @@ public class CameraMGR : MonoBehaviour {
 				coinage = 0;
 				Application.LoadLevel("_Scene_End_Game");
 			}
-			Application.LoadLevel("_Scene_Alex_7");
+			if (PE_Controller.instance.isAlpha){
+				Application.LoadLevel("_Scene_Alpha_2");
+			}
+			else{
+				Application.LoadLevel("_Scene_Alex_7");
+			}
 		}
 	}
 

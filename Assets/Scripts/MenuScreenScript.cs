@@ -9,7 +9,7 @@ public class MenuScreenScript : MonoBehaviour {
 			Application.LoadLevel("_Scene_Alex_7");
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha2)){
-			Application.LoadLevel("_Scene_Alpha_1");
+			Application.LoadLevel("_Scene_Alpha_2");
 		}
 	
 	}
