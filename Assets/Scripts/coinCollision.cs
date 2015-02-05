@@ -15,6 +15,7 @@ public class coinCollision : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
+		if (other.tag != "Player") return;
 		CashThisCoin ();
 	}
 
@@ -41,8 +42,8 @@ public class coinCollision : MonoBehaviour {
 			CameraMGR.score += 50;
 		}
 		CameraMGR.instance.scoreText.text = CameraMGR.score.ToString();
-		CameraMGR.instance.coinage += 1;
-		CameraMGR.instance.coinageText.text = CameraMGR.instance.coinage.ToString();
+		CameraMGR.coinage += 1;
+		CameraMGR.instance.coinageText.text = CameraMGR.coinage.ToString();
 
 	}
 

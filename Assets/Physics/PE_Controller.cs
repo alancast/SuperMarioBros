@@ -28,6 +28,8 @@ public class PE_Controller : MonoBehaviour {
 	public bool 	isAlpha = false;
 	//set when about to attack
 	public bool 	isAttackReady = false;
+	//check if it was powed
+	public bool 	powed = false;
 	
 	public float	acceleration = 10;
 	public float 	accel_speed = 10;
