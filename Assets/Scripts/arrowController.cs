@@ -15,5 +15,9 @@ public class arrowController : MonoBehaviour {
 	void Update () {
 		float h_vel = Mathf.Abs(PE_Controller.instance.vel.x);
 		anim.SetFloat ("h_vel", h_vel);
+
+		bool canFly = (PE_Controller.instance.state == MarioState.Fly);
+
+		anim.SetBool ("flyable", canFly);
 	}
 }
