@@ -180,7 +180,7 @@ public class PE_Obj : MonoBehaviour {
 				vel.y = 0;
 				
 				if (ground == null) ground = that;
-				if (PE_Controller.instance.isFlying){
+				if (PE_Controller.instance.isFlying && tag == "Player"){
 					PE_Controller.instance.isFlying = false;
 				}
 			}
