@@ -5,7 +5,7 @@ public class coinCollision : MonoBehaviour {
 
 	public bool 		isTemporary = false;
 	float 				startTime;
-	float				coinLife = .4f;
+	float		coinLife = .4f;
 
 	void Start(){
 		startTime = Time.time;
