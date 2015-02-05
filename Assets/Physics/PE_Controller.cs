@@ -116,7 +116,7 @@ public class PE_Controller : MonoBehaviour {
 			Application.LoadLevel("_Scene_Alex_7");
 		}
 		if (Input.GetKeyDown(KeyCode.Alpha2)){
-			Application.LoadLevel("_Scene_Alpha_2");
+			Application.LoadLevel("_Scene_Alpha_3");
 		}
 		
 		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))

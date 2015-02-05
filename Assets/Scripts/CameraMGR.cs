@@ -62,7 +62,7 @@ public class CameraMGR : MonoBehaviour {
 				Application.LoadLevel("_Scene_End_Game");
 			}
 			if (PE_Controller.instance.isAlpha){
-				Application.LoadLevel("_Scene_Alpha_2");
+				Application.LoadLevel("_Scene_Alpha_3");
 			}
 			else{
 				Application.LoadLevel("_Scene_Alex_7");

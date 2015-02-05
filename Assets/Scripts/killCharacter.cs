@@ -28,7 +28,7 @@ public class killCharacter : MonoBehaviour {
 				}
 				else {
 					if (PE_Controller.instance.isAlpha){
-						Application.LoadLevel("_Scene_Alpha_1");
+						Application.LoadLevel("_Scene_Alpha_3");
 					}
 					else{
 						Application.LoadLevel("_Scene_Alex_7");
@@ -57,7 +57,7 @@ public class killCharacter : MonoBehaviour {
 					}
 					else {
 						if (PE_Controller.instance.isAlpha){
-							Application.LoadLevel("_Scene_Alpha_1");
+							Application.LoadLevel("_Scene_Alpha_3");
 						}
 						else{
 							Application.LoadLevel("_Scene_Alex_7");
