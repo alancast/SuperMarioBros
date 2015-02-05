@@ -17,7 +17,7 @@ public class mushroomCollision : MonoBehaviour {
 	void Start () {
 		startTime = Time.time;
 		mario = GameObject.FindGameObjectWithTag ("Player");
-		mario_Controller = mario.GetComponent<PE_Controller> ();
+		mario_Controller = PE_Controller.instance;
 		shroomAnim = GetComponent<Animator>();
 		this_mushroom = GetComponent<PE_Obj> ();
 
