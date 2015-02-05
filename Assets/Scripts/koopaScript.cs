@@ -59,7 +59,7 @@ public class koopaScript : goombaScript {
 
 		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
-			if (other.tag == "Shell"){
+			if (other.tag == "Tail"){
 				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.kill);
 			}
 			Destroy(this.gameObject);
