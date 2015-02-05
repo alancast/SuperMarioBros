@@ -83,6 +83,8 @@ public class PE_Controller : MonoBehaviour {
 	public AudioClip	kickShell;
 	public AudioClip	tailSlow;
 	public AudioClip	brickBreak;
+	public float 		lastTailSlow;
+	public float 		lastFlightSound;
 	
 		
 	void Awake(){
@@ -154,6 +156,10 @@ public class PE_Controller : MonoBehaviour {
 			if (peo.vel.x > maxSpeed.x) acceleration = -accel_speed;
 		}
 		else{
+			if (Time.time > lastFlightSound && Mathf.Abs(vel.x) > flightThreshold && state == MarioState.Fly){
+				PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.flight);
+				lastFlightSound = Time.time + 2.2f;
+			}
 			if (peo.vel.x < -maxSprintX && acceleration < 0) return;
 			if (peo.vel.x > maxSprintX && acceleration > 0) return;
 		}
@@ -169,6 +175,10 @@ public class PE_Controller : MonoBehaviour {
 		}
 		if (Mathf.Sign(peo.vel.x) != Mathf.Sign(acceleration)) 
 			vel.x += acceleration * Time.deltaTime * slowDownFactor; 
+		if (Time.time > lastFlightSound && Mathf.Abs(vel.x) > flightThreshold && state == MarioState.Fly){
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.flight);
+			lastFlightSound = Time.time + 2.2f;
+		}
 		peo.vel = vel;
 		
 	}
@@ -218,6 +228,10 @@ public class PE_Controller : MonoBehaviour {
 		if (!isJumping && peo.ground == null){
 			if (Time.time - lastJumpPress < downJumpButtonThreshold){
 				vel.y = downJumpVelocity;
+				if (Time.time > lastTailSlow){
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.tailSlow);
+					lastTailSlow = Time.time + .43f;
+				}
 				if (vel.x > maxFlightSpeed.x){
 					vel.x = maxFlightSpeed.x;
 				}
@@ -247,6 +261,10 @@ public class PE_Controller : MonoBehaviour {
 	
 	void handleFlying(){
 		vel = peo.vel;
+		if (Time.time > lastFlightSound){
+			PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.flight);
+			lastFlightSound = Time.time + 2.2f;
+		}
 		//first call from handleJumping
 		if (!isFlying){
 			isFlying = true;
