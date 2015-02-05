@@ -24,7 +24,7 @@ public class koopaScript : goombaScript {
 	public float koopaJumpVel = 14f;
 	public Vector3 dest = new Vector3(85f, 3.4f, 0f);
 	float endInvince;
-	public float killBuffer = .3f;
+	public float killBuffer = .2f;
 
 	void Start () {
 		this_Goomba = GetComponent<PE_Obj> ();
