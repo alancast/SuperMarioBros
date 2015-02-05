@@ -42,6 +42,7 @@ public class killCharacter : MonoBehaviour {
 					if (Time.time < invicible) return;
 					PE_Controller.instance.state = MarioState.Small;
 					invicible = Time.time + 2f;
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 				//from small to dead
 				else if (PE_Controller.instance.state == MarioState.Small){
@@ -67,6 +68,7 @@ public class killCharacter : MonoBehaviour {
 				else{
 					PE_Controller.instance.state = MarioState.Big;
 					invicible = Time.time + 2f;
+					PE_Controller.instance.source.PlayOneShot(PE_Controller.instance.shrink);
 				}
 
 
