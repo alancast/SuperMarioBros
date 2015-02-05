@@ -200,7 +200,10 @@ public class PE_Obj : MonoBehaviour {
 			b.y -= that.collider.bounds.size.y/2f;
 			//hang to the ceiling
 			if (that.tag == "Alpha"){
-				posFinal.y -= Mathf.Abs( a1.y - b.y );
+				float yOff = Mathf.Abs( a1.y - b.y );
+				if (yOff < .4f){
+					posFinal.y -= Mathf.Abs( a1.y - b.y );
+				}
 				transform.position = pos1 = posFinal;
 				vel.y = 0;
 				return;

@@ -69,6 +69,20 @@ public class PE_Controller : MonoBehaviour {
 	public float 	attackUntil;
 	//reference to his tail for attacks
 	private Transform[] tail;
+	
+	//Audio
+	public AudioSource 	source;
+	public AudioClip	shroomGrow;
+	public AudioClip	oneUp;
+	public AudioClip	pipe;
+	public AudioClip	jump;
+	public AudioClip	flight;
+	public AudioClip	coin;
+	public AudioClip	kill;
+	public AudioClip	shrink;
+	public AudioClip	kickShell;
+	public AudioClip	tailSlow;
+	
 		
 	void Awake(){
 		instance = this;
@@ -76,6 +90,7 @@ public class PE_Controller : MonoBehaviour {
 		Vector3 temp = tail[1].localPosition;
 		temp.y = -60;
 		tail[1].localPosition = temp;
+		source = GetComponent<AudioSource>();
 	}
 	
 	void Start () {
