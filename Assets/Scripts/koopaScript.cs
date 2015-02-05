@@ -54,7 +54,9 @@ public class koopaScript : goombaScript {
 
 		if (Time.time > endInvince  && this.state != KoopaState.StillShell) {
 			killZone = transform.GetChild(0);
-			killZone.position = transform.position;
+			Vector3 temp = transform.position;
+			temp.y -= .35f;
+			killZone.position = temp;
 		}
 
 		if (other.tag == "Shell" || other.tag == "Tail") {

@@ -370,6 +370,9 @@ public class PE_Obj : MonoBehaviour {
 				
 				// Handle vel
 				vel.x = 0;
+				if (tag == "Shell" && that.tag == "Platform"){
+					vel.x = vel0.x;
+				}
 				if (tag == "Player"){
 					dir = PE_Dir.down;
 				}
@@ -408,6 +411,9 @@ public class PE_Obj : MonoBehaviour {
 				
 				// Handle vel
 				vel.x = 0;
+				if (tag == "Shell" && that.tag == "Platform"){
+					vel.x = vel0.x;
+				}
 				if (tag == "Player"){
 					dir = PE_Dir.down;
 				}
