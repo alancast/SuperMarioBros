@@ -20,7 +20,7 @@ public class FireVelController : MonoBehaviour {
 		//this_FireBall.acc = Vector3.zero;
 		this_FireBall.vel = fireSpeed;
 
-		if((startTime - Time.time) > lifeTime){
+		if((Time.time - startTime) > lifeTime){
 
 			PE_Obj thisFB = this.GetComponent<PE_Obj> ();
 			PhysicsEngine.objs.Remove(thisFB);

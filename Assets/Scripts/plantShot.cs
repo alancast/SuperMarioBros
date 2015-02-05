@@ -30,14 +30,14 @@ public class plantShot : MonoBehaviour {
 		if (plant_anim.GetCurrentAnimatorStateInfo (0).IsName ("plant_Top")) {
 
 						if (Mathf.Abs (PE_Controller.instance.transform.position.x - this.transform.position.x) < shotDistance 
-								&& Mathf.Abs (PE_Controller.instance.transform.position.y - this.transform.position.y) < (shotDistance - 3)
+								&& Mathf.Abs (PE_Controller.instance.transform.position.y - this.transform.position.y) < (shotDistance - 1)
 			    				&& !alreadyShot) {
 
 								GameObject curFireBall = (GameObject)Instantiate (FireBall, shotOrigin, Quaternion.identity);
 								FireVelController _FireBall = curFireBall.GetComponent<FireVelController> ();
 
 								Vector3 fireVel = PE_Controller.instance.transform.position;
-								fireVel.y += 1.6f;
+								fireVel.y += 3.6f;
 								fireVel -= shotOrigin;
 
 								if (Mathf.Abs (fireVel.x) < minDist) {
@@ -49,6 +49,8 @@ public class plantShot : MonoBehaviour {
 										}
 								}
 
+								
+								fireVel /= 2;
 								//fireVel = Vector3.Normalize(fireVel);
 								//fireVel *= speedConstant;
 
