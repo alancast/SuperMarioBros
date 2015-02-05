@@ -57,7 +57,7 @@ public class koopaScript : goombaScript {
 			killZone.position = transform.position;
 		}
 
-		if (other.tag == "Shell") {
+		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
 		}
@@ -120,8 +120,9 @@ public class koopaScript : goombaScript {
 
 
 		if(this_Goomba.dir == PE_Dir.downLeft || this_Goomba.dir == PE_Dir.downRight){
-			if (other.tag != "Player" && this_Goomba.vel0.y > -.1 && other.tag != "Goomba"
-				 && other.tag != "Platform" && other.tag != "Item"){
+			if (other.tag != "Player" 
+				&& (this_Goomba.vel0.y > -.1 || (tag == "Shell" && other.tag == "brickBlock")) 
+				&& other.tag != "Goomba" && other.tag != "Platform" && other.tag != "Item"){
 
 				if(this.tag == "Shell" && other.tag == "GoombaCollider") return;
 

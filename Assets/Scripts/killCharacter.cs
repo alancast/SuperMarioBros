@@ -21,6 +21,9 @@ public class killCharacter : MonoBehaviour {
 				CameraMGR.lives -= 1;
 				CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
 				if (CameraMGR.lives <= 0){
+					CameraMGR.lives = 4;
+					CameraMGR.score = 0;
+					CameraMGR.coinage = 0;
 					Application.LoadLevel("_Scene_End_Game");
 				}
 				else {
@@ -46,6 +49,9 @@ public class killCharacter : MonoBehaviour {
 					CameraMGR.lives -= 1;
 					CameraMGR.instance.livesText.text = CameraMGR.lives.ToString();
 					if (CameraMGR.lives <= 0){
+						CameraMGR.lives = 4;
+						CameraMGR.score = 0;
+						CameraMGR.coinage = 0;
 						Application.LoadLevel("_Scene_End_Game");
 					}
 					else {

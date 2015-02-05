@@ -87,7 +87,7 @@ public class goombaScript : MonoBehaviour {
 			return;
 		}
 
-		if (other.tag == "Shell") {
+		if (other.tag == "Shell" || other.tag == "Tail") {
 			PhysicsEngine.objs.Remove (this_Goomba);
 			Destroy(this.gameObject);
 		}

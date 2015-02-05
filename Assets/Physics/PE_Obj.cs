@@ -376,12 +376,8 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.y = 0;
 				
-				if (this.tag != "Player"){
-					transform.position = pos1 = posFinal;
-					return;
-				}
 				if (ground == null) ground = that;
-				if (PE_Controller.instance.isFlying){
+				if (PE_Controller.instance.isFlying && tag == "Player"){
 					PE_Controller.instance.isFlying = false;
 				}
 			}
@@ -417,12 +413,8 @@ public class PE_Obj : MonoBehaviour {
 				// Handle vel
 				vel.y = 0;
 				
-				if (this.tag != "Player"){
-					transform.position = pos1 = posFinal;
-					return;
-				}
 				if (ground == null) ground = that;
-				if (PE_Controller.instance.isFlying){
+				if (PE_Controller.instance.isFlying && tag == "Player"){
 					PE_Controller.instance.isFlying = false;
 				}
 			}
